@@ -80,6 +80,11 @@
             "experience":"Using design strategies such as Wireframes, Prototypes and Mockups, allow me as a Web Designer to envision what a product will look like at the end of the developmental cycle."
         },
         {
+            "title":"Responsive Design",
+            "level": "Beginner",
+            "experience":"By using media queries to build websites, I have aquired the skills to design websites with a mobile first mindset intended to suit users using mobile devices such as smartphones and tablets."
+        },
+        {
             "title":"Adaptablity",
             "level": "Intermediate",
             "experience":"I believe it is extremly important to have the ability to adapt. By being adaptable, I have an advantage that allows me to overcome problems by finding alternate sollutions and making obsticles an opportunity."
