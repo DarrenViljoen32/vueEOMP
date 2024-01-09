@@ -1,0 +1,162 @@
+{
+    "home":[
+        {
+            "name":"Darren Viljoen",
+            "picture":"https://picsum.photos/id/237/200/300",
+            "intro":"Welcome to my Portfloio!"
+        }
+    ],
+    "about":[
+        "Current Web Developer student passionate about data managing and machine learning. I have gained numerous skills through numerous initiatives to make my assigned projects a success and am always willing to go the extra mile. Proficient in a range of modern technologies such as HTML, CSS and Microsoft Office Suit.",
+        " As for my hobbies, I enjoy gaming, watching anime, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and paining."
+    ],
+    "education":[
+        {
+            "id":1,
+            "title":"Life Choices Academy",
+            "year":2024,
+            "description":"A 6 Month bootcamp where I learnt the basics of Programming, as well as Professional Development where I learnt the valuable knowledge of work ethincs and professionalism."
+        },
+        {
+            "id":2,
+            "title":"Tira Telcoms",
+            "year":2022,
+            "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
+        },
+        {
+            "id":3,
+            "title":"G-CITI Campus",
+            "year":2021,
+            "description":"A 9 Month course where I learned the fundamentals of front-end and back-end Web and Mobile App Development. During my time here I worked as part of a team to develop a dynamic and responsive website for a local primary school."
+        },
+        {
+            "id":4,
+            "title":"Kukhula Global Projects",
+            "year":2020,
+            "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
+        },
+        {
+            "id":5,
+            "title":"CTI (Pearson Education)",
+            "year":2018,
+            "description":"I spent 3 years at CTI where I studied a Bachelors in Information Technology. It is where I learned Programming, Database Management, and Project Management. Unfortunately I could not continue my studies at CTI for a multitude of reasons, completing 2 out of the 3 years required to graduate."
+        },
+        {
+            "id":6,
+            "title":"Goodwood College",
+            "year":2015,
+            "description":"This is were I attended High-School starting from 2011. A 'diligent learner and an obediant pupal' are the words one would describe me during this time. I Matriculated in 2015 with a Diploma in Tourism."
+        }
+    ],
+    "skills":[
+        {
+            "title": "Web Development",
+            "experience":"Being a Web Developer requires one to not only be proficient in Front-End web design, but to also have knowledge on Back-End development. Using language tools such as PHP and MySQL, I have obtained a fair bit of skills concerning Back-End development."
+        },
+        {
+            "title":"Programming",
+            "experience":"Being proficient in JavaScript, HTML5, CSS and Vue.js means that I am able to create websites that are dynamic and responsive. By using IDEs and frameworks, I am able to make my projects more interactive that ever before."
+        },
+        {
+            "title":"UI/UX Design",
+            "experience":"Using design strategies such as Wireframes, Prototypes and Mockups, allow me as a Web Designer to envision what a product will look like at the end of the developmental cycle."
+        },
+        {
+            "title":"Time Management",
+            "experience":"It is incredably important to manage one's time correctly when developing projects. As such i have made it my duty to always have good time managment when completing projects, whether its seting deadlines for deliverables or timeframes for certain activities."
+        },
+        {
+            "title":"Adaptability",
+            "experience":"I believe it is extremly important to have the ability to adapt. By being adaptable, I have an advantage that allows me to overcome problems by finding alternate sollutions and making obsticles an opportunity."
+        },
+        {
+            "title":"Strong Work Ethics",
+            "experience":"Having a strong work ethic means that I'm Responisible and Accountable, Respectful and Fair as well as being Highly Motivated in my way of approaching my work."
+        }
+    ],
+    "projects":[
+        {
+            "name":"Virtual Keyboard",
+            "description":"Made using HTML5 and CSS3",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"https://github.com/DarrenViljoen32/Keyboard.git",
+            "netlify":"https://keyboarddarrenviljoen.netlify.app/"
+        },
+        {
+            "name":"Virtual Calculator",
+            "description":"Made using HTML5 and CSS3",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"https://github.com/DarrenViljoen32/Calculator.git",
+            "netlify":"https://calculatordarrenviljoen.netlify.app/"
+        },
+        {
+            "name":"E-Commerce Website",
+            "description":"Made using HTML5 and CSS3",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"https://github.com/DarrenViljoen32/ECommerceWebsite.git",
+            "netlify":"https://darreneviljoenecommercewebsite.netlify.app/"
+        },
+        {
+            "name":"MobiCare Clone",
+            "description":"Made using HTML5 and CSS3",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"https://github.com/DarrenViljoen32/mobicare_clone.git",
+            "netlify":"https://mobicareclonewebsite.netlify.app/"
+        },
+        {
+            "name":"E-Commerce Website",
+            "description":"Made using JavaScript, HTML5 and CSS3",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"https://github.com/DarrenViljoen32/netflix_Clone.git",
+            "netlify":"https://my-netflix-website-clone.netlify.app/"
+        },
+        {
+            "name":"Portfolio",
+            "description":"Made using Bootstrap",
+            "image":"https://picsum.photos/id/237/200/300",
+            "github":"",
+            "netlify":"https://eomp-project.netlify.app/"
+        }
+    ],
+    "testimonials":[
+        {
+            "name":"Matthew Dean Brown",
+            "quote":"Darren is a very determined individual. He always goes the extra mile of what is expected of him. One the best qualities he possesses is that he is an incredibly hard worker, which is a rare quality that not everyone possesses.",
+            "email":"matthew@lifechoices.co.za",
+            "profile":"https://picsum.photos/id/237/200/300"
+        },
+        {
+            "name":"Corné Balie",
+            "quote":"I've had the pleasure of working with Darren, and I wholeheartedly recommend him. His strong work ethic, passion for coding, and dedication to learning make him an exceptional student. He is both a problem solver and a team player, which to me is very admirable.",
+            "email":"cornebalie789@gmail.com",
+            "profile":"https://picsum.photos/id/237/200/300"
+        },
+        {
+            "name":"Jason September",
+            "quote":"Darren is a great individual who i've had the pleasure of working with, he's always calm and level headed and always think things through that counts for his work as well and for that I admire him as colleague, companion and friend.",
+            "email":"septemberj626@gmail.com",
+            "profile":"https://picsum.photos/id/237/200/300"
+        },
+        {
+            "name":"Damon Raffels",
+            "quote":"Darren is a dedicated, hard working developer who is always on a mission to improve his knowledge and skills as a developer. He has excellent communication and problem solving skills and is never afraid of a challenge. I have no doubt that he'll be a valuable member of the workforce.",
+            "email":"damonraffels@gmail.com",
+            "profile":"https://picsum.photos/id/237/200/300"
+        },
+        {
+            "name":"Brandon Roulstone",
+            "quote":"Darren is an effective Web Designer, he is very responsive and a pleasure to work with. He regularly goes above and beyond in all his Programming challenges. His best attributes are certainly his Intelligence when it comes to Web Design. Darren is a hardworking individual who displays an good understanding in the software development industry and has proven to be on of the best in our cohort.",
+            "email":"brandonroulstone71@gmail.com",
+            "profile":"https://picsum.photos/id/237/200/300"
+        },
+        {
+            "name":"Unity Demas",
+            "quote":"Darren's software development abilities are simply outstanding. His expertise in frontend programming can be seen in the fluid and visually attractive user interfaces he produces. Darren's strong personality shines through in his unwavering dedication and ability to lead and motivate his peers.",
+            "email":"unitydemas12@gmail.com",
+            "profile":"https://picsum.photos/id/237/200/300"
+        }
+    ],
+    "contact":[
+        
+    ]
+}
