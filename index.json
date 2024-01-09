@@ -99,42 +99,42 @@
         {
             "name":"Virtual Keyboard",
             "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "image":"https://i.postimg.cc/g0wLvTWt/virtual-Keyboard.png",
             "github":"https://github.com/DarrenViljoen32/Keyboard.git",
             "netlify":"https://keyboarddarrenviljoen.netlify.app/"
         },
         {
             "name":"Virtual Calculator",
             "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "image":"https://i.postimg.cc/JnZyFHtb/virtual-Calculator.png",
             "github":"https://github.com/DarrenViljoen32/Calculator.git",
             "netlify":"https://calculatordarrenviljoen.netlify.app/"
         },
         {
-            "name":"E-Commerce Website",
+            "name":"HTML5 E-Commerce Website",
             "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "image":"https://i.postimg.cc/jS3JnrGJ/ecommerce.png",
             "github":"https://github.com/DarrenViljoen32/ECommerceWebsite.git",
             "netlify":"https://darreneviljoenecommercewebsite.netlify.app/"
         },
         {
-            "name":"MobiCare Clone",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
-            "github":"https://github.com/DarrenViljoen32/mobicare_clone.git",
-            "netlify":"https://mobicareclonewebsite.netlify.app/"
+            "name":"BMI Calculator",
+            "description":"Made using HTML5 and JavaScript",
+            "image":"https://i.postimg.cc/cJ1ysncM/bmi-Calculator.png",
+            "github":"https://github.com/DarrenViljoen32/javascriptBMIcalculator.git",
+            "netlify":"https://myjavascriptbmicalculator.netlify.app/"
         },
         {
-            "name":"Netflix Clone",
+            "name":"JavaScript E-Commerce Website",
             "description":"Made using JavaScript, HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
-            "github":"https://github.com/DarrenViljoen32/netflix_Clone.git",
-            "netlify":"https://my-netflix-website-clone.netlify.app/"
+            "image":"https://i.postimg.cc/VvRWsx66/ecommerce-Java-Script.png",
+            "github":"https://github.com/DarrenViljoen32/JavaScript_EndofModuleProject_ECommerceProject.git",
+            "netlify":"https://my-javascript-ecommerce-project.netlify.app/"
         },
         {
-            "name":"Portfolio",
-            "description":"Made using Bootstrap",
-            "image":"https://picsum.photos/id/237/200/300",
+            "name":"Bootstrap Portfolio",
+            "description":"Made using Bootstrap 5",
+            "image":"https://i.postimg.cc/nL6jTGVF/portfolio.png",
             "github":"https://github.com/DarrenViljoen32/eomp_Project.git",
             "netlify":"https://eomp-project.netlify.app/"
         }
