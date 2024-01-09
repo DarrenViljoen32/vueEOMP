@@ -12,37 +12,31 @@
     ],
     "education":[
         {
-            "id":1,
             "title":"Life Choices Academy",
             "year":2024,
             "description":"A 6 Month bootcamp where I learnt the basics of Programming, as well as Professional Development where I learnt the valuable knowledge of work ethincs and professionalism."
         },
         {
-            "id":2,
             "title":"Tira Telcoms",
             "year":2022,
             "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
         },
         {
-            "id":3,
             "title":"G-CITI Campus",
             "year":2021,
             "description":"A 9 Month course where I learned the fundamentals of front-end and back-end Web and Mobile App Development. During my time here I worked as part of a team to develop a dynamic and responsive website for a local primary school."
         },
         {
-            "id":4,
             "title":"Kukhula Global Projects",
             "year":2020,
             "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
         },
         {
-            "id":5,
             "title":"CTI (Pearson Education)",
             "year":2018,
             "description":"I spent 3 years at CTI where I studied a Bachelors in Information Technology. It is where I learned Programming, Database Management, and Project Management. Unfortunately I could not continue my studies at CTI for a multitude of reasons, completing 2 out of the 3 years required to graduate."
         },
         {
-            "id":6,
             "title":"Goodwood College",
             "year":2015,
             "description":"This is were I attended High-School starting from 2011. A 'diligent learner and an obediant pupal' are the words one would describe me during this time. I Matriculated in 2015 with a Diploma in Tourism."
