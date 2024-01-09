@@ -114,7 +114,7 @@
             "name":"Portfolio",
             "description":"Made using Bootstrap",
             "image":"https://picsum.photos/id/237/200/300",
-            "github":"",
+            "github":"https://github.com/DarrenViljoen32/eomp_Project.git",
             "netlify":"https://eomp-project.netlify.app/"
         }
     ],
