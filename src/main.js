@@ -11,11 +11,3 @@ createApp(App).use(store).use(router).mount('#app')
 
 import "bootstrap/dist/js/bootstrap.js"
 import 'bootstrap-icons/font/bootstrap-icons.css'
-
-// Vue.config.productionTip = false
-
-// Vue.prototype.$axios = axios
-
-// new Vue({
-//     render:(h) => h(App),
-// }).$mount('#app')

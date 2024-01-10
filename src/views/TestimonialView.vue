@@ -1,6 +1,6 @@
 <template>
-    <div class="about">
-      <h1>Testimonials</h1>
+    <div class="testimonials">
+      <h1 class="fw-bold">Testimonials</h1>
       <br><br>
 
       <div v-if="jsonData">
@@ -95,7 +95,7 @@
       </div>
 
       <div v-else>
-      Loading...
+      <Spinner />
     </div>
 
 
@@ -103,9 +103,12 @@
   </template>
   
   <script>
+  import Spinner from '@/components/Spinner.vue'
+
   export default {
     name: 'HomeView',
     components: {
+      Spinner
     },
     computed:{
       jsonData(){
@@ -118,16 +121,41 @@
   };
   </script>
 <style scoped>
+.testimonials{
+  padding-bottom: 2%;
+}
     .card{
       margin-top: 100px;
-      
+      height: 700px;
+      overflow: hidden;
+    }
+    .card img{
+      height: 250px;
+      transition: transform .5s ease;
     }
     .card:hover{
       box-shadow: inset 0 -3em 3em floralwhite,
       0 0 0 2px floralwhite,
       0em 0em 1em floralwhite;
+      transform: scale(1.01);
     }
+    /* .card:hover img{
+      transform: scale(1.1);
+    } */
     a{
       text-decoration: none;
+    }
+    h1{
+      margin-top: 55px;
+      padding-top: 50px;
+    }
+    h1, h2, h3{
+      text-align: initial;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .row{
+      margin-left: 100px;
+      margin-right: 0px;
     }
 </style>

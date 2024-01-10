@@ -9,12 +9,12 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <router-link to="/" class="nav-link">Home</router-link>
-                    <router-link to="/about" class="nav-link">About</router-link>
-                    <router-link to="/resume" class="nav-link">Resume</router-link>
-                    <router-link to="/projects" class="nav-link">Projects</router-link>
-                    <router-link to="/testimonials" class="nav-link">Testimonials</router-link>
-                    <router-link to="/contact" class="nav-link">Contact</router-link>
+                    <router-link to="/" class="nav-link"><span class="bi bi-house"> | </span>Home</router-link>
+                    <router-link to="/about" class="nav-link"><span class="bi bi-person"> | </span>About</router-link>
+                    <router-link to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Resume</router-link>
+                    <router-link to="/projects" class="nav-link"><span class="bi bi-file-earmark-code"> | </span>Projects</router-link>
+                    <router-link to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>Testimonials</router-link>
+                    <router-link to="/contact" class="nav-link"><span class="bi bi-envelope-at"> | </span>Contact</router-link>
                 </div>
             </div>
         </div>
@@ -23,26 +23,19 @@
 </template>
 <script>
 export default {
-    data(){
-    return {
-      jsonData: null
-    };
-  },
-  created(){
-    this.fetchData();
-  },
-  methods: {
-    async fetchData(){
-      try{
-        const response = await axios.get('http://localhost:3000/home');
-        this.jsonData = response.data;
-      } catch(error){
-        console.error('Error fetching data: ', error);
-      }
+  computed:{
+    jsonData(){
+      return this.$store.state.jsonData
     }
+  },  
+  mounted(){
+    this.$store.dispatch('fetchJsonData')
   }
 }
 </script>
-<style lang="">
-
+<style>
+  .bi{
+    color: #000030;
+    font-size: large;
+  }
 </style>

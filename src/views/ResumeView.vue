@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div class="resume">
       <h1 class="fw-bold">Resume</h1>
       <br><br>
       <h2>Education</h2>
@@ -18,11 +18,11 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="left" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[0].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[0].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[0].year}}</h6>
                   <p class="card-text">{{ jsonData.education[0].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -33,11 +33,11 @@
   
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="middle" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[1].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[1].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[1].year}}</h6>
                   <p class="card-text">{{ jsonData.education[1].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -48,11 +48,11 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="right" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[2].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[2].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[2].year}}</h6>
                   <p class="card-text">{{ jsonData.education[2].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -66,11 +66,11 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="left" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[3].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[3].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[3].year}}</h6>
                   <p class="card-text">{{ jsonData.education[3].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -81,11 +81,11 @@
   
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="middle" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[4].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[4].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[4].year}}</h6>
                   <p class="card-text">{{ jsonData.education[4].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -96,11 +96,11 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="right" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[5].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">Year: {{jsonData.education[5].year}}</h6>
+                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[5].year}}</h6>
                   <p class="card-text">{{ jsonData.education[5].description }}</p>
                   <!-- <a href="#" class="card-link">Card link</a> -->
                   <!-- <a href="#" class="card-link">Another link</a> -->
@@ -115,7 +115,7 @@
 
       </div>
       <div v-else>
-        Loading...
+        <Spinner />
       </div>
 
 
@@ -130,7 +130,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a class="bi bi-filetype-js"></a>
@@ -146,7 +146,7 @@
   
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a class="bi bi-bootstrap"></a>
@@ -162,7 +162,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-code-slash"></a>
@@ -181,7 +181,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-laptop"></a>
@@ -197,7 +197,7 @@
   
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-wifi"></a>
@@ -213,7 +213,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-display"></a>
@@ -233,7 +233,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-phone"></a>
@@ -249,7 +249,7 @@
   
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-compass"></a>
@@ -265,7 +265,7 @@
             
             <div class="col">
   
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="skill-zoom" style="width: 18rem;">
                 <!-- <img src="" class="card-img-top" alt="image"> -->
                 <div class="card-body">
                   <a href="" class="bi bi-server"></a>
@@ -285,7 +285,7 @@
       </div>
       
       <div v-else>
-        Loading...
+        <!-- <Spinner /> -->
       </div>
 
 
@@ -293,9 +293,12 @@
   </template>
   
 <script>
+import  Spinner from '@/components/Spinner.vue'
+
 export default {
   name: 'HomeView',
   components: {
+    Spinner
   },
   computed:{
     jsonData(){
@@ -309,11 +312,17 @@ export default {
 </script>
 
 <style scoped>
+.resume{
+  padding-bottom: 2%;
+}
     h1{
       margin-top: 55px;
+      padding-top: 50px;
     }
-    h2{
+    h1, h2, h3{
       text-align: initial;
+      padding-left: 15%;
+      padding-right: 15%;
     }
     .card{
       margin-top: 15px;
@@ -329,4 +338,67 @@ export default {
       color: #000030;
       font-size: xx-large;
     }
+    .row{
+      margin-left: 100px;
+      margin-right: 0px;
+    }
+
+    #middle{
+      animation: fadeIn 1s ease;
+      animation-duration: 5s;
+    }
+    #left{
+      animation: fromRight 1s ease;
+      animation-duration: 10s;
+    }
+    #right{
+      animation: fromLeft 1s ease;
+      animation-duration: 10s;
+    }
+    #skill-zoom{
+      animation: bounceIn 1s ease;
+      animation-duration: 5s;
+    }
+
+    @keyframes fromLeft {
+      0%{
+        transform: translateX(100%);
+      }
+      100%{
+        transform: translateX(0%);
+      }
+    }
+    @keyframes fromRight {
+        0%{
+          transform: translateX(-100%);
+        }
+        100%{
+          transform: translateX(0%);
+        }
+      }
+    @keyframes fadeIn {
+        0%{
+          opacity: 0%;
+        }
+        100%{
+          opacity: 100%;
+        }
+      }
+    @keyframes bounceIn {
+        0% { 
+          opacity: 0; 
+          transform: scale(.3);
+        }
+        50% { 
+          opacity: 1;
+          transform: scale(1.05);
+        }
+        70% {
+          transform: scale(.9);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
 </style>

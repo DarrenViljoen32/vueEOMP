@@ -2,7 +2,7 @@
     "home":[
         {
             "name":"Darren Viljoen",
-            "picture":"https://picsum.photos/id/237/200/300",
+            "picture":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQfNi2tyFYPNAw4wLEe_DjEYcIse-gMmQrfMW5MF8kxs8r4lt8_F866T8jyDxMF4VgMZqFFc60uahC4a4UQBqBqH--QEA=s1600",
             "intro":"Welcome to my Portfloio!"
         }
     ],
@@ -12,148 +12,163 @@
     ],
     "education":[
         {
-            "id":1,
             "title":"Life Choices Academy",
-            "year":2024,
+            "year":"September 2023 - April 2024",
             "description":"A 6 Month bootcamp where I learnt the basics of Programming, as well as Professional Development where I learnt the valuable knowledge of work ethincs and professionalism."
         },
         {
-            "id":2,
             "title":"Tira Telcoms",
-            "year":2022,
+            "year":"December 2021 - March 2022",
             "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
         },
         {
-            "id":3,
             "title":"G-CITI Campus",
-            "year":2021,
+            "year":"February 2021 - November 2021",
             "description":"A 9 Month course where I learned the fundamentals of front-end and back-end Web and Mobile App Development. During my time here I worked as part of a team to develop a dynamic and responsive website for a local primary school."
         },
         {
-            "id":4,
             "title":"Kukhula Global Projects",
-            "year":2020,
+            "year":"January 2020 - December 2020",
             "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
         },
         {
-            "id":5,
             "title":"CTI (Pearson Education)",
-            "year":2018,
+            "year":"January 2016 - December 2018",
             "description":"I spent 3 years at CTI where I studied a Bachelors in Information Technology. It is where I learned Programming, Database Management, and Project Management. Unfortunately I could not continue my studies at CTI for a multitude of reasons, completing 2 out of the 3 years required to graduate."
         },
         {
-            "id":6,
             "title":"Goodwood College",
-            "year":2015,
+            "year":"January 2011 - December 2015",
             "description":"This is were I attended High-School starting from 2011. A 'diligent learner and an obediant pupal' are the words one would describe me during this time. I Matriculated in 2015 with a Diploma in Tourism."
         }
     ],
     "skills":[
         {
-            "title": "Web Development",
+            "title": "JavaScript",
+            "level": "Intermediate",
+            "experience":"I am a Beginner at working with JavaScript and have much to learn. However, even as a beginner I am able to use JavaScript to my advantage. By using its Powerful frameworks, Ease of use and Versitility I am able to make my project more interactive that ever before."
+        },
+        {
+            "title":"Bootstrap CSS",
+            "level": "Intermediate",
+            "experience":"As an aspiring Web Developer, using CSS makes completing projects much easier. CSS make it possible to make my websites at a quicker development time with faster page loading speeds. This, along with having compatibility across multiple devices makes for an overall better User Experience."
+        },
+        {
+            "title":"HTML5",
+            "level": "Intermediate",
+            "experience":"Being proficient in HTML5 means that I am able to create websites that are dynamic and responsive. By making use of Semantic Elements, Responive Media Queries, and Keyframe Animations (to name a few), making refined yet stylish websites becomes a breeze."
+        },
+        {
+            "title":"Web Design",
+            "level": "Beginner",
+            "experience":"As someone aspiring to make it in the IT industry, I've developed a passion for Web Design. I strive to make every website I create be a modern expression of the client's specifications as well as ensuring that every part of the website is a perfect relfection of the client's own needs."
+        },
+        {
+            "title":"Web Development",
+            "level": "Beginner",
             "experience":"Being a Web Developer requires one to not only be proficient in Front-End web design, but to also have knowledge on Back-End development. Using language tools such as PHP and MySQL, I have obtained a fair bit of skills concerning Back-End development."
         },
         {
-            "title":"Programming",
-            "experience":"Being proficient in JavaScript, HTML5, CSS and Vue.js means that I am able to create websites that are dynamic and responsive. By using IDEs and frameworks, I am able to make my projects more interactive that ever before."
-        },
-        {
             "title":"UI/UX Design",
+            "level": "Beginner",
             "experience":"Using design strategies such as Wireframes, Prototypes and Mockups, allow me as a Web Designer to envision what a product will look like at the end of the developmental cycle."
         },
         {
-            "title":"Time Management",
-            "experience":"It is incredably important to manage one's time correctly when developing projects. As such i have made it my duty to always have good time managment when completing projects, whether its seting deadlines for deliverables or timeframes for certain activities."
+            "title":"Responsive Design",
+            "level": "Beginner",
+            "experience":"By using media queries to build websites, I have aquired the skills to design websites with a mobile first mindset intended to suit users using mobile devices such as smartphones and tablets."
         },
         {
-            "title":"Adaptability",
+            "title":"Adaptablity",
+            "level": "Intermediate",
             "experience":"I believe it is extremly important to have the ability to adapt. By being adaptable, I have an advantage that allows me to overcome problems by finding alternate sollutions and making obsticles an opportunity."
         },
         {
             "title":"Strong Work Ethics",
+            "level": "Intermediate",
             "experience":"Having a strong work ethic means that I'm Responisible and Accountable, Respectful and Fair as well as being Highly Motivated in my way of approaching my work."
         }
     ],
     "projects":[
         {
             "name":"Virtual Keyboard",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSajJBOx5J8J3qri3CtxLk3Fhjwlvf2yZnuv9oCwMkVyqsh87K9aC-qO9R32m4O4CCIXTxSuas7X3lwcj8t_qU68zx-xQ=s1600",
             "github":"https://github.com/DarrenViljoen32/Keyboard.git",
             "netlify":"https://keyboarddarrenviljoen.netlify.app/"
         },
         {
             "name":"Virtual Calculator",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSq64ddOJTib9kl9BbQ5d3-LuHOD_PBe0z_C9rwEoG4q9e3ah1hqUn2mLWHBauQp8kIH4-XTgzFXpHPLer0C8OgeQpe=s1600",
             "github":"https://github.com/DarrenViljoen32/Calculator.git",
             "netlify":"https://calculatordarrenviljoen.netlify.app/"
         },
         {
             "name":"E-Commerce Website",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSt51x4XWVEYy1EKD9EeQhLOhGokjVObpM0y6fdxv1CkDW4BWcPvlWes1TcFDgdASXzml3XbLciBpgPdJHgk_d4AYGXRA=s1600",
             "github":"https://github.com/DarrenViljoen32/ECommerceWebsite.git",
             "netlify":"https://darreneviljoenecommercewebsite.netlify.app/"
         },
         {
-            "name":"MobiCare Clone",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
-            "github":"https://github.com/DarrenViljoen32/mobicare_clone.git",
-            "netlify":"https://mobicareclonewebsite.netlify.app/"
+            "name":"BMI Calculator",
+            "description":"Made using HTML5 & JavaScript",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYRxQtLfluziCTs2YAIrgbD4l02G3A_z7hTiA41P8BrLSkDfF5c9PD2sGOqNxBoHd3CXrqQjbUVa1DiS210eDvh6kuI=s1600",
+            "github":"https://github.com/DarrenViljoen32/javascriptBMIcalculator.git",
+            "netlify":"https://myjavascriptbmicalculator.netlify.app/"
         },
         {
             "name":"E-Commerce Website",
-            "description":"Made using JavaScript, HTML5 and CSS3",
-            "image":"https://picsum.photos/id/237/200/300",
-            "github":"https://github.com/DarrenViljoen32/netflix_Clone.git",
-            "netlify":"https://my-netflix-website-clone.netlify.app/"
+            "description":"Made using JavaScript, HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSTBapEEfrG306-e4fcC-718E3doc3fjiPMRrJ2LMKBudX7tGnpWN3YDx1tE7pT4HBzldh9UMQ-AA1Ipd_KwiEcki-R3g=s1600",
+            "github":"https://github.com/DarrenViljoen32/JavaScript_EndofModuleProject_ECommerceProject.git",
+            "netlify":"https://my-javascript-ecommerce-project.netlify.app/"
         },
         {
-            "name":"Portfolio",
-            "description":"Made using Bootstrap",
-            "image":"https://picsum.photos/id/237/200/300",
-            "github":"",
+            "name":"Bootstrap Portfolio",
+            "description":"Made using Bootstrap 5",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQc-rMTcf66vySY26GCL7NUgIWegezABoNlBoTeRMERmq58MqbqURX101_wGxUJbhWsDTawuRgCFBsz9w4Ni-edmm_yXA=s1600",
+            "github":"https://github.com/DarrenViljoen32/eomp_Project.git",
             "netlify":"https://eomp-project.netlify.app/"
         }
     ],
     "testimonials":[
         {
             "name":"Matthew Dean Brown",
-            "quote":"Darren is a very determined individual. He always goes the extra mile of what is expected of him. One the best qualities he possesses is that he is an incredibly hard worker, which is a rare quality that not everyone possesses.",
+            "quote":"Darren is a very determined individual. He is an incredibly hard worker and always goes the extra mile of what is expected of him. It has been an absolute pleasure working with him for the past few months.",
             "email":"matthew@lifechoices.co.za",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQSWguUYA_Fvo3vSfGeWde9v5mtnRyzQvhzRw5GChHuHCa_skDNJ0XhjL0m7fanHbHzBXT93ln2YQpTVZvpzSAALPJV5w=s2560"
         },
         {
             "name":"Corné Balie",
-            "quote":"I've had the pleasure of working with Darren, and I wholeheartedly recommend him. His strong work ethic, passion for coding, and dedication to learning make him an exceptional student. He is both a problem solver and a team player, which to me is very admirable.",
+            "quote":"I've had the pleasure of working with Darren, and I wholeheartedly recommend him. His strong work ethic, passion for coding, and dedication to learning make him an exceptional student. He is both a problem solver and a terrific team player.",
             "email":"cornebalie789@gmail.com",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQJ-EJQZA3kdlx75ohQK3Vlbz6JIdEjeAFYe6_DT_i0GBEc7aCZrnQtuUzwOf1zJUk3l7-fA0b95-Tc9Fk4Ab9IIbre8Q=s1600"
         },
         {
             "name":"Jason September",
-            "quote":"Darren is a great individual who i've had the pleasure of working with, he's always calm and level headed and always think things through that counts for his work as well and for that I admire him as colleague, companion and friend.",
+            "quote":"Darren is a fantastic individual who i've had the pleasure of working with, he's always calm and level headed and always think things through that counts for his work as well and for that I admire him as colleague, companion and friend.",
             "email":"septemberj626@gmail.com",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSjidGllH_1HzjvGhBp7eccKrKJB0TfYjNmfYvGck8kTKEmKeMlocv-k2fEW9YOy-BqtjkEqDm4gZ71w9f8_yffbB1L=s2560"
         },
         {
             "name":"Damon Raffels",
             "quote":"Darren is a dedicated, hard working developer who is always on a mission to improve his knowledge and skills as a developer. He has excellent communication and problem solving skills and is never afraid of a challenge. I have no doubt that he'll be a valuable member of the workforce.",
             "email":"damonraffels@gmail.com",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSVc8hk_5PWRvgIUAdWNPX5QJL4auuPmAYfnYoyEgqche_Ta8dyzh-BR23DxUhGeL_5mnDkzfGoRQY2Q37S3PbcOI9y=s1600"
         },
         {
             "name":"Brandon Roulstone",
             "quote":"Darren is an effective Web Designer, he is very responsive and a pleasure to work with. He regularly goes above and beyond in all his Programming challenges. His best attributes are certainly his Intelligence when it comes to Web Design. Darren is a hardworking individual who displays an good understanding in the software development industry and has proven to be on of the best in our cohort.",
             "email":"brandonroulstone71@gmail.com",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYS7Et_R_Vt1c5FFwhSRUHreVaQwPwm4h44xoVGoZOMj7ItFlhYj7oOzV0ReVjEMbAf1jxwfE6sBG019MD4diGqqiWPb=s1600"
         },
         {
             "name":"Unity Demas",
             "quote":"Darren's software development abilities are simply outstanding. His expertise in frontend programming can be seen in the fluid and visually attractive user interfaces he produces. Darren's strong personality shines through in his unwavering dedication and ability to lead and motivate his peers.",
             "email":"unitydemas12@gmail.com",
-            "profile":"https://picsum.photos/id/237/200/300"
+            "profile":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYRdbyzM1Ch5ymianoXBLcsugbHt7KUiUYCnpyjLYifQ9LBi1ryu3DCXQ4iCjouwZ-ec6YxSNnuxdGuoESkmBrjW9g67mA=s1600"
         }
     ],
     "contact":[

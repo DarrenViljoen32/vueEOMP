@@ -6,39 +6,42 @@
     <div v-if="jsonData">
       <img :src="jsonData.home[0].picture" class="rounded-circle border" alt="Profile Picture">
       <br><br><br>
-      <p>{{ jsonData.about[0] }}</p>
-      <p>{{ jsonData.about[1] }}</p>
-      <br>
-      <h3 class="fw-bold">Additional Information : </h3>
-      <div class="row">
-          <div class="personal-info pads">
-              <div class="row">
-                  <div class="info-item pads">
-                      <p>Date of Birth : 12 March 1998</p>
-                  </div>
-                  <div class="info-item pads">
-                      <p>Age : 25</p>
-                  </div>
-                  <div class="info-item pads">
-                      <p>Phone : +27 74 867 1764</p>
-                  </div>
-                  <div class="info-item pads">
-                      <p>Email : darrenviljoen32@gmail.com</p>
-                  </div>
-                  <div class="info-item pads">
-                      <p>City : Cape Town</p>
-                  </div>
-                  <div class="info-item pads">
-                      <p>Freelance : N/A</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="buttons pads">
-                      <!-- github link -->
-                      <a href="https://github.com/DarrenViljoen32?tab=repositories" target="_blank" class="btn btn-primary">See More of my Work</a>
-                  </div>
-              </div>
-          </div>
+      <div class="info">
+        <p>{{ jsonData.about[0] }}</p>
+        <p>{{ jsonData.about[1] }}</p>
+        <br>
+        <h3 class="fw-bold">Additional Information : </h3>
+        <div class="row">
+            <div class="personal-info pads">
+                <div class="row">
+                    <div class="info-item pads">
+                        <p>Date of Birth : 12 March 1998</p>
+                    </div>
+                    <div class="info-item pads">
+                        <p>Age : 25</p>
+                    </div>
+                    <div class="info-item pads">
+                        <p>Phone : +27 74 867 1764</p>
+                    </div>
+                    <div class="info-item pads">
+                        <p>Email : darrenviljoen32@gmail.com</p>
+                    </div>
+                    <div class="info-item pads">
+                        <p>City : Cape Town</p>
+                    </div>
+                    <div class="info-item pads">
+                        <p>Freelance : N/A</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="buttons pads">
+                        <!-- github link -->
+                        <a href="https://github.com/DarrenViljoen32?tab=repositories" target="_blank" class="btn btn-primary">See More of my Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       </div>
 
       <!-- <table class="table">
@@ -53,16 +56,19 @@
   
     </div>
     <div v-else>
-      Loading...
+      <Spinner />
     </div>
   </div>
 </template>
 
 
 <script>
+import Spinner from '@/components/Spinner.vue'
+
 export default {
   name: 'HomeView',
   components: {
+    Spinner
   },
   computed:{
     jsonData(){
@@ -76,10 +82,14 @@ export default {
 </script>
 
 <style scoped>
+.about{
+  padding-bottom: 2%;
+}
 h1{
   margin-top: 55px;
+  padding-top: 50px;
 }
-h3, p{
+h1, h2, h3, p{
   text-align: initial;
   padding-left: 15%;
   padding-right: 15%;
@@ -94,5 +104,33 @@ img{
 .info-item{
   border-bottom: 2px floralwhite;
 }
+
+h1, h2{
+  animation: fromLeft 1s ease;
+  animation-duration: 10s;
+}
+
+.info{
+  animation: fadeIn 1s ease;
+  animation-duration: 5s;
+}
+
+@keyframes fromLeft {
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes fadeIn {
+    0%{
+      opacity: 0%;
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
 
 </style>
