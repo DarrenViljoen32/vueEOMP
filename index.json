@@ -2,7 +2,7 @@
     "home":[
         {
             "name":"Darren Viljoen",
-            "picture":"https://i.postimg.cc/rsjBygKM/20231009-140315-00.jpg",
+            "picture":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQfNi2tyFYPNAw4wLEe_DjEYcIse-gMmQrfMW5MF8kxs8r4lt8_F866T8jyDxMF4VgMZqFFc60uahC4a4UQBqBqH--QEA=s1600",
             "intro":"Welcome to my Portfloio!"
         }
     ],
@@ -92,43 +92,43 @@
     "projects":[
         {
             "name":"Virtual Keyboard",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://i.postimg.cc/g0wLvTWt/virtual-Keyboard.png",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSajJBOx5J8J3qri3CtxLk3Fhjwlvf2yZnuv9oCwMkVyqsh87K9aC-qO9R32m4O4CCIXTxSuas7X3lwcj8t_qU68zx-xQ=s1600",
             "github":"https://github.com/DarrenViljoen32/Keyboard.git",
             "netlify":"https://keyboarddarrenviljoen.netlify.app/"
         },
         {
             "name":"Virtual Calculator",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://i.postimg.cc/JnZyFHtb/virtual-Calculator.png",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSq64ddOJTib9kl9BbQ5d3-LuHOD_PBe0z_C9rwEoG4q9e3ah1hqUn2mLWHBauQp8kIH4-XTgzFXpHPLer0C8OgeQpe=s1600",
             "github":"https://github.com/DarrenViljoen32/Calculator.git",
             "netlify":"https://calculatordarrenviljoen.netlify.app/"
         },
         {
             "name":"E-Commerce Website",
-            "description":"Made using HTML5 and CSS3",
-            "image":"https://i.postimg.cc/jS3JnrGJ/ecommerce.png",
+            "description":"Made using HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSt51x4XWVEYy1EKD9EeQhLOhGokjVObpM0y6fdxv1CkDW4BWcPvlWes1TcFDgdASXzml3XbLciBpgPdJHgk_d4AYGXRA=s1600",
             "github":"https://github.com/DarrenViljoen32/ECommerceWebsite.git",
             "netlify":"https://darreneviljoenecommercewebsite.netlify.app/"
         },
         {
             "name":"BMI Calculator",
-            "description":"Made using HTML5 and JavaScript",
-            "image":"https://i.postimg.cc/cJ1ysncM/bmi-Calculator.png",
+            "description":"Made using HTML5 & JavaScript",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYRxQtLfluziCTs2YAIrgbD4l02G3A_z7hTiA41P8BrLSkDfF5c9PD2sGOqNxBoHd3CXrqQjbUVa1DiS210eDvh6kuI=s1600",
             "github":"https://github.com/DarrenViljoen32/javascriptBMIcalculator.git",
             "netlify":"https://myjavascriptbmicalculator.netlify.app/"
         },
         {
             "name":"E-Commerce Website",
-            "description":"Made using JavaScript, HTML5 and CSS3",
-            "image":"https://i.postimg.cc/VvRWsx66/ecommerce-Java-Script.png",
+            "description":"Made using JavaScript, HTML5 & CSS3",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYSTBapEEfrG306-e4fcC-718E3doc3fjiPMRrJ2LMKBudX7tGnpWN3YDx1tE7pT4HBzldh9UMQ-AA1Ipd_KwiEcki-R3g=s1600",
             "github":"https://github.com/DarrenViljoen32/JavaScript_EndofModuleProject_ECommerceProject.git",
             "netlify":"https://my-javascript-ecommerce-project.netlify.app/"
         },
         {
             "name":"Bootstrap Portfolio",
             "description":"Made using Bootstrap 5",
-            "image":"https://i.postimg.cc/nL6jTGVF/portfolio.png",
+            "image":"https://lh3.googleusercontent.com/drive-viewer/AEYmBYQc-rMTcf66vySY26GCL7NUgIWegezABoNlBoTeRMERmq58MqbqURX101_wGxUJbhWsDTawuRgCFBsz9w4Ni-edmm_yXA=s1600",
             "github":"https://github.com/DarrenViljoen32/eomp_Project.git",
             "netlify":"https://eomp-project.netlify.app/"
         }
