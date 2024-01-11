@@ -3,10 +3,11 @@
     
     <div class="square"> 
       <div class="square-title">
-        <!-- <br><br><br><br><br> -->
+        <br><br>
+
         <div v-if="jsonData">
           <img :src="jsonData.home[0].picture" class="rounded-circle border" alt="Profile Picture">
-          <br><br>
+          <br>
           <h1 class="ani-home fw-bold">{{ jsonData.home[0].name }}</h1>
           <h2 class="ani-home fw-bold">{{ jsonData.home[0].intro }}</h2>
           <div class="ani-home">
@@ -16,6 +17,7 @@
             <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
           </div>
         </div>
+        
         <div v-else>
           <Spinner />
         </div>
@@ -84,14 +86,17 @@ export default {
 img{
   height: 250px;
   width: 250px;
-  box-shadow: inset 0 -3em 3em floralwhite,
+  box-shadow: inset 0 -3em 3em #24ff02,
   0 0 0 2px floralwhite,
   0em 0em 1em floralwhite;
 }
 a{
   text-decoration: none;
-  color: floralwhite;
+  color: #24ff02;
   font-size: xx-large;
+}
+h1{
+  color: #24ff02;
 }
 
 .ani-home{
@@ -115,12 +120,16 @@ a{
   padding-bottom: 2%;
 }
 
-
+@media screen and (max-width:360px){
+  a{
+    font-size: large;
+  }
+}
 
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .square {
-  background-color: #000030;
+  background-color: #000000ba;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -143,42 +152,36 @@ a{
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #003298;
+  border: solid 1px #24ff02;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: shape 12s ease-in forwards infinite;
-          animation: shape 12s ease-in forwards infinite;
+  animation: shape 12s ease-in forwards infinite;
 }
 .shape:nth-child(2n) {
-  border-color: #0051f4;
+  border-color: #a90298;
 }
 .shape:nth-child(2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 0.1s;
   left: 25vw;
   top: 40vh;
 }
 .shape:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  animation-delay: 1s;
   left: 75vw;
   top: 50vh;
 }
 .shape:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  animation-delay: 2s;
   left: 90vw;
   top: 10vh;
 }
 .shape:nth-child(5) {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  animation-delay: 3s;
   left: 10vw;
   top: 85vh;
 }
 .shape:nth-child(6) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  animation-delay: 5s;
   left: 50vw;
   top: 10vh;
 }

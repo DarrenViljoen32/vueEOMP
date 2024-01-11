@@ -25,7 +25,7 @@ import Spinner from "./components/Spinner.vue"
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: floralwhite;
-  background-color: #000030;
+  background-color: #000000;
   /* width: initial; */
 
   overflow-y: hidden;
@@ -35,39 +35,4 @@ import Spinner from "./components/Spinner.vue"
   /* cursor: pointer; */
 }
 
-
-nav {
-  padding: 30px;
-  text-align: initial;
-  /* position: sticky; */
-}
-
-nav a {
-  font-weight: bold;
-  color: #000030;
-  text-decoration: none;
-  padding-left: 0%;
-  font-size: larger;
-}
-
-
-nav a:hover {
-  color: #0d0def;
-}
-
-/* nav a.router-link-exact-active {
-  color: red;
-} */
-
-.navbar-nav{
-  padding-left: 0%;
-  padding-right: 0%;
-}
-
-
-@media screen and (min-width: 1080px) {
-  .navbar-nav{
-  padding-left: 0%;
-  }
-}
 </style>

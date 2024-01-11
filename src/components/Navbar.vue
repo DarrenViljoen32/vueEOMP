@@ -35,7 +35,43 @@ export default {
 </script>
 <style>
   .bi{
-    color: #000030;
+    color: black;
     font-size: large;
+  }
+
+  
+  nav {
+    padding: 30px;
+    text-align: initial;
+    /* position: sticky; */
+  }
+
+  nav a {
+    font-weight: bold;
+    color: #a0e714;
+    text-decoration: none;
+    padding-left: 0%;
+    font-size: larger;
+  }
+
+
+ .navbar-nav a:hover {
+    color: #24ff02;
+  }
+
+  /* nav a.router-link-exact-active {
+    color: red;
+  } */
+
+  .navbar-nav{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+
+  @media screen and (min-width: 1080px) {
+    .navbar-nav{
+    padding-left: 0%;
+    }
   }
 </style>

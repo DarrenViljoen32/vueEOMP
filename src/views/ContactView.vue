@@ -1,9 +1,9 @@
 <template>
     <div class="contact" v-if="jsonData">
-      <h1 class="fw-bold">Contact Me</h1>
+      <h1 class="fw-bold" id="right">Contact Me</h1>
       <br><br>
 
-      <div class="row">
+      <div class="row" id="right">
         <div class="col-md-4 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="bi bi-geo-alt-fill"></i>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="text-center text-md-left">
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn">Send</button>
             </div>
           </form>
 
@@ -129,9 +129,9 @@ export default {
 }
 </script>
 <style scoped>
-.contact{
-  padding-bottom: 2%;
-}
+    .contact{
+      padding-bottom: 2%;
+    }
     .bi{
       font-size: xx-large;
       color: floralwhite;
@@ -149,6 +149,10 @@ export default {
     h1{
       margin-top: 55px;
       padding-top: 50px;
+      color: #24ff02;;
+    }
+    h4{
+      color: #24ff02;
     }
     h1, h2, h3{
       text-align: initial;
@@ -161,4 +165,42 @@ export default {
     .md-form input:focus{
       box-shadow: 0 0 20px floralwhite;
     }
+    button{
+      background-color: #24ff02;
+      color: floralwhite;
+      height: 55px;
+      border-radius: 10px;
+    }
+  button:hover{
+      transform: scale(1.05);
+      box-shadow: inset 0 -3em 3em #24ff02,
+      0 0 0 2px floralwhite,
+      0em 0em 1em #24ff02;
+    }
+
+    #left{
+      animation: fromRight 1s ease;
+      animation-duration: 5s;
+    }
+    #right{
+      animation: fromLeft 1s ease;
+      animation-duration: 5s;
+    }
+
+    @keyframes fromLeft {
+      0%{
+        transform: translateX(100%);
+      }
+      100%{
+        transform: translateX(0%);
+      }
+    }
+    @keyframes fromRight {
+        0%{
+          transform: translateX(-100%);
+        }
+        100%{
+          transform: translateX(0%);
+        }
+      }
 </style>

@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="buttons pads">
                         <!-- github link -->
-                        <a href="https://github.com/DarrenViljoen32?tab=repositories" target="_blank" class="btn btn-primary">See More of my Work</a>
+                        <a href="https://github.com/DarrenViljoen32?tab=repositories" target="_blank" class="btn"><button>See More of my Work</button></a>
                     </div>
                 </div>
             </div>
@@ -88,6 +88,10 @@ export default {
 h1{
   margin-top: 55px;
   padding-top: 50px;
+  color: #24ff02;
+}
+h3{
+  color: #24ff02;
 }
 h1, h2, h3, p{
   text-align: initial;
@@ -99,7 +103,19 @@ img{
   width: 250px;
   box-shadow: inset 0 -3em 3em floralwhite,
   0 0 0 2px floralwhite,
-  0em 0em 1em floralwhite;
+  0em 0em 1em #24ff02;
+}
+button{
+  background-color: #24ff02;
+  color: floralwhite;
+  height: 55px;
+  border-radius: 10px;
+}
+button:hover{
+  transform: scale(1.05);
+  box-shadow: inset 0 -3em 3em #24ff02,
+  0 0 0 2px floralwhite,
+  0em 0em 1em #24ff02;
 }
 .info-item{
   border-bottom: 2px floralwhite;
@@ -111,8 +127,8 @@ h1, h2{
 }
 
 .info{
-  animation: fadeIn 1s ease;
-  animation-duration: 5s;
+  animation: fadeIn 5s ease;
+  animation-duration: 10s;
 }
 
 @keyframes fromLeft {
