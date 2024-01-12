@@ -120,7 +120,7 @@ export default {
     }
     .card{
       margin-top: 15px;
-      height: 345px;
+      height: 375px;
       width: 18rem;
       border: solid 6px #24ff02;
     }
