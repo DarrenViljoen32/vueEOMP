@@ -1,9 +1,11 @@
 <template>
+
+    <!-- Display contact information if jsonData is available -->
     <div class="contact" v-if="jsonData">
       <h1 class="fw-bold" id="right">Contact Me</h1>
       <br><br>
 
-      <div class="row" id="right">
+      <div class="row" id="left">
         <div class="col-md-4 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="bi bi-geo-alt-fill"></i>
@@ -26,23 +28,47 @@
             <ul class="list-unstyled mb-0">
                 <li><i class="bi bi-envelope-at-fill"></i>
                   <h4>Email</h4>
-                  <a href="mailto: darrenviljoen32@gmail.com">darrenviljoen32@gmail.com</a>
+                  <p>darrenviljoen32@gmail.com</p>
                 </li>
             </ul>
         </div>
 
       </div>
-      <br><br><br><br><br>
+
+      <br><br><br>
+
+      <div class="row" id="icons">
+        <div class="col-md-3 text-center">
+          <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> 
+          <p>Check out my GitHub!</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a>
+          <p>Hire Me via LinkedIn!</p> 
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> 
+          <p>Try out my Netlify!</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
+          <p>Whatsapp Me!</p>
+        </div>
+      </div>
+      <br><br><br>
+
+      <h3 class="fw-bold col" id="right">Send Me a Message via Email:</h3>
+
       <div class="row">
 
         <div class="col-md mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="https://formspree.io/f/xjvqjgvr" method="POST" class="was-validated">
+          <form @submit.prevent="submitForm" id="contact-form" name="contact-form" action="https://formspree.io/f/xjvqjgvr" method="POST" class="was-validated">
 
             <div class="row">
 
               <div class="col-md-6">
                 <div class="md-form mb-0">
-                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter Full Name" required>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter Full Name" required v-model="name">
                     <div class="valid-feedback">
                       Valid!
                     </div>
@@ -54,7 +80,7 @@
 
               <div class="col-md-6">
                 <div class="md-form mb-0">
-                    <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email" required>
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email" required v-model="email">
                     <div class="valid-feedback">
                       Valid!
                     </div>
@@ -67,9 +93,10 @@
             </div>
 
             <div class="row">
+
               <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter Subject" required>
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter Subject" required v-model="subject">
                     <div class="valid-feedback">
                       Valid!
                     </div>
@@ -78,6 +105,7 @@
                     </div>
                   </div>
               </div>
+              
             </div>
 
             <div class="row">
@@ -85,7 +113,7 @@
               <div class="col-md-12">
 
                 <div class="md-form">
-                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Enter Your Message" required></textarea>
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Enter Your Message" required v-model="message"></textarea>
                     <div class="valid-feedback">
                       Valid!
                     </div>
@@ -99,32 +127,75 @@
             </div>
 
             <div class="text-center text-md-left">
-              <button type="submit" class="btn">Send</button>
+              <button type="submit" class="btn" data-toggle="modal" data-target="#formModal">Send</button>
             </div>
-          </form>
 
+              <!-- Modal -->
+              <!-- <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="formModalLongTitle">Thank You!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Your Message Was Successfully Sent via Formspree.</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+          </form>
         </div>
+
       </div>
     </div>
+
+    <!-- Display a loading spinner when jsonData is not available -->
     <div v-else>
       <Spinner />
     </div>
+
 </template>
   
 <script>
+// Import the Spinner component
 import Spinner from '@/components/Spinner.vue'
 
 export default {
+  // Register the Spinner component
   components:{
     Spinner
   },
+  // Computed property to retrieve jsonData from the Vuex store
   computed:{
     jsonData(){
       return this.$store.state.jsonData
     }
-  },  
+  },
+  // Fetch data when the component is mounted 
   mounted(){
     this.$store.dispatch('fetchJsonData')
+  },
+  data(){
+    return {
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    }
+  },
+  methods:{
+    // Empty form fields when submit button is pressed
+    submitForm(){
+      console.log('Page was refreshed.');
+      this.name = ''
+      this.email = ''
+      this.subject = ''
+      this.message = ''
+    }
   }
 }
 </script>
@@ -141,6 +212,11 @@ export default {
     }
     a{
       text-decoration: none;
+    }
+    a:hover{
+      transform: scale(1.01);
+      color: #24ff02;
+      box-shadow: 0em 0em 3em #24ff02;
     }
     label{
       color: floralwhite;
@@ -171,13 +247,16 @@ export default {
       height: 55px;
       border-radius: 10px;
     }
-  button:hover{
+    button:hover{
       transform: scale(1.05);
       box-shadow: inset 0 -3em 3em #24ff02,
       0 0 0 2px floralwhite,
       0em 0em 1em #24ff02;
     }
-
+    form{
+      margin-left: 2%;
+      margin-right: 2%;
+    }
     #left{
       animation: fromRight 1s ease;
       animation-duration: 5s;
@@ -186,7 +265,10 @@ export default {
       animation: fromLeft 1s ease;
       animation-duration: 5s;
     }
-
+    #icons{
+      animation: fadeIn 5s ease;
+      animation-duration: 10s;
+    }
     @keyframes fromLeft {
       0%{
         transform: translateX(100%);
@@ -202,5 +284,13 @@ export default {
         100%{
           transform: translateX(0%);
         }
+    }
+    @keyframes fadeIn {
+      0%{
+        opacity: 0%;
       }
+      100%{
+        opacity: 100%;
+      }
+    }
 </style>

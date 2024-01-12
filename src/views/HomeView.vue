@@ -1,110 +1,94 @@
 <template>
   <div class="home">
+    <!-- <br><br><br><br><br><br> -->
+
+    <!-- Backgroung Animations -->
+
+    <!-- <div class="square"> 
+      <div class="square-title"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div> -->
     
-    <div class="square"> 
-      <div class="square-title">
-        <br><br>
-
-        <div v-if="jsonData">
-          <img :src="jsonData.home[0].picture" class="rounded-circle border" alt="Profile Picture">
-          <br>
-          <h1 class="ani-home fw-bold">{{ jsonData.home[0].name }}</h1>
-          <h2 class="ani-home fw-bold">{{ jsonData.home[0].intro }}</h2>
-          <div class="ani-home">
-            <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> | 
-            <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a> | 
-            <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> | 
-            <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
-          </div>
+    <!-- Conditional rendering: Display content if jsonData is available, otherwise show a loading spinner -->
+    <div v-if="jsonData">
+      <!-- Loop through items in jsonData.home -->
+      <div v-for="ho in jsonData.home" :key="ho.name">
+        <!-- Display profile picture -->
+        <img :src="ho.picture" class="rounded-circle border" alt="Profile Picture Loading...">
+        <br>
+        <!-- Display name and introduction -->
+        <h1 class="ani-home fw-bold">{{ ho.name }}</h1>
+        <h2 class="ani-home fw-bold">{{ ho.intro }}</h2>
+        <!-- Display Social Media Links -->
+        <div class="ani-home">
+          <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> | 
+          <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a> | 
+          <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> | 
+          <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
         </div>
-        
-        <div v-else>
-          <Spinner />
-        </div>
-
-
       </div>
-      <div class="shape"></div>
-      <div class="shape"></div>
-      <div class="shape"></div>
-      <div class="shape"></div>
-      <div class="shape"></div>
-      <div class="shape"></div>
     </div>
-
-
+    <!-- Display a loading spinner when jsonData is not available -->
+    <div v-else>
+      <Spinner />
+    </div>
     
-    <!-- <p v-for="item in jsonData" :key="item.id">
-      {{ item.name }}
-    </p>
-    <p v-for="item in jsonData" :key="item.id">
-      {{ item.intro }}
-    </p> -->
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
+
+// Import Spinner component
 import Spinner from '@/components/Spinner.vue'
 
 export default {
   name: 'HomeView',
+  // Register the Spinner component
   components: {
     Spinner
   },
+  // Computed property to retrieve jsonData from the Vuex store
   computed:{
     jsonData(){
       return this.$store.state.jsonData
     }
   },  
-  data(){
-    return {
-      // jsonData: null
-    };
-  },
+  // Fetch data when the component is mounted
   mounted(){
     // this.fetchJsonData();
     this.$store.dispatch('fetchJsonData')
-  },
-  created(){
-    // this.fetchData();
-  },
-  methods: {
-    // async fetchJsonData(){
-    //   try{
-    //     const response = await axios.get('https://darrenviljoen32.github.io/vueEOMP/index.json');
-    //     this.jsonData = response.data;
-    //   } catch(error){
-    //     console.error('Error fetching data: ', error);
-    //   }
-    // }
   }
 };
 </script>
 
 <style scoped>
 img{
+  margin-top: 10%;
   height: 250px;
   width: 250px;
   box-shadow: inset 0 -3em 3em #24ff02,
   0 0 0 2px floralwhite,
-  0em 0em 1em floralwhite;
+  0em 0em 3em #24ff02;
 }
 a{
   text-decoration: none;
-  color: #24ff02;
+  color: floralwhite;
   font-size: xx-large;
 }
 h1{
   color: #24ff02;
 }
-
 .ani-home{
     animation: zoom 1s ease;
     animation-duration: 5s;
-  }
-
-  @keyframes zoom {
+}
+@keyframes zoom {
     0% {
       transform: scale(0, 0);
     }
@@ -114,10 +98,9 @@ h1{
     100% {
       transform: scale(1, 1);
     }
-  }
-
+}
 .home {  
-  padding-bottom: 2%;
+  padding-bottom: 10%;
 }
 
 @media screen and (max-width:360px){
@@ -127,7 +110,9 @@ h1{
 }
 
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+/* Background Animation */
+
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .square {
   background-color: #000000ba;
   position: relative;
@@ -135,7 +120,6 @@ h1{
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
-
 .square-title {
   color: floralwhite;
   position: absolute;
@@ -145,7 +129,6 @@ h1{
   font-size: 50px;
   z-index: 1;
 }
-
 .shape {
   position: absolute;
   top: 80vh;
@@ -185,18 +168,6 @@ h1{
   left: 50vw;
   top: 10vh;
 }
-
-@-webkit-keyframes shape {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
-}
-
 @keyframes shape {
   from {
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -206,5 +177,5 @@ h1{
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
-}
+} */
 </style>

@@ -4,14 +4,17 @@
       <br><br>
       <h2 id="right">Education</h2>
 
+      <!-- Display education information if jsonData is available -->
       <div v-if="jsonData">
 
         <div class="container text-center">
 
           <div class="row">
+            <!-- Loop through education data and create a card for each item -->
             <div class="col" v-for="edu in jsonData.education" :key="edu.title">
               <div class="card" id="skill-zoom">
                 <div class="card-body">
+                  <!-- Display education title, year, and description -->
                   <h5 class="card-title">{{ edu.title }}</h5>
                   <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{edu.year}}</h6>
                   <p class="card-text">{{ edu.description }}</p>
@@ -21,9 +24,7 @@
           </div>
 
           <!-- <div class="row">
-            
             <div class="col">
-  
               <div class="card" id="left">
                 <div class="card-body">
                   <h5 class="card-title">{{ jsonData.education[0].title }}</h5>
@@ -31,78 +32,14 @@
                   <p class="card-text">{{ jsonData.education[0].description }}</p>
                 </div>
               </div>
-  
             </div>
-  
-            <div class="col">
-  
-              <div class="card" id="middle">
-                <div class="card-body">
-                  <h5 class="card-title">{{ jsonData.education[1].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[1].year}}</h6>
-                  <p class="card-text">{{ jsonData.education[1].description }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-            <div class="col">
-  
-              <div class="card" id="right">
-                <div class="card-body">
-                  <h5 class="card-title">{{ jsonData.education[2].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[2].year}}</h6>
-                  <p class="card-text">{{ jsonData.education[2].description }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-          </div>
-
-          <div class="row">
-            
-            <div class="col">
-  
-              <div class="card" id="left">
-                <div class="card-body">
-                  <h5 class="card-title">{{ jsonData.education[3].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[3].year}}</h6>
-                  <p class="card-text">{{ jsonData.education[3].description }}</p>
-                </div>
-              </div>
-  
-            </div>
-  
-            <div class="col">
-  
-              <div class="card" id="middle">
-                <div class="card-body">
-                  <h5 class="card-title">{{ jsonData.education[4].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[4].year}}</h6>
-                  <p class="card-text">{{ jsonData.education[4].description }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-            <div class="col">
-  
-              <div class="card" id="right">
-                <div class="card-body">
-                  <h5 class="card-title">{{ jsonData.education[5].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{jsonData.education[5].year}}</h6>
-                  <p class="card-text">{{ jsonData.education[5].description }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
           </div> -->
           
         </div>
 
       </div>
+
+      <!-- Display a loading spinner when jsonData is not available -->
       <div v-else>
         <Spinner />
       </div>
@@ -111,155 +48,31 @@
       <br><br>
       <h2 id="right">Skills</h2>
 
+      <!-- Display skills information if jsonData is available -->
       <div v-if="jsonData">
 
         <div class="container text-center">
+
           <div class="row">
+            <!-- Loop through skills data and create a card for each item -->
             <div class="col" v-for="skill in jsonData.skills" :key="skill.title">
-  
               <div class="card" id="skill-zoom">
                 <div class="card-body">
+                  <!-- Display skill title, level, experience, and an icon -->
                   <a class="bi bi-person-up"></a>
                   <h5 class="card-title">{{ skill.title }}</h5>
                   <h6 class="card-subtitle mb-2 text-muted">{{ skill.level }}</h6>
                   <p class="card-text">{{ skill.experience }}</p>
                 </div>
               </div>
-
             </div>
           </div>
-
-          <!-- <div class="row">
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a class="bi bi-filetype-js"></a>
-                  <h5 class="card-title">{{ jsonData.skills[0].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[0].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[0].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-  
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a class="bi bi-bootstrap"></a>
-                  <h5 class="card-title">{{ jsonData.skills[1].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[1].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[1].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-code-slash"></a>
-                  <h5 class="card-title">{{ jsonData.skills[2].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[2].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[2].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-          </div>
-          <div class="row">
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-laptop"></a>
-                  <h5 class="card-title">{{ jsonData.skills[3].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[3].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[3].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-  
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-wifi"></a>
-                  <h5 class="card-title">{{ jsonData.skills[4].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[4].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[4].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-display"></a>
-                  <h5 class="card-title">{{ jsonData.skills[5].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[5].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[5].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-          </div>
-
-          <div class="row">
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-phone"></a>
-                  <h5 class="card-title">{{ jsonData.skills[6].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[6].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[6].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-  
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-compass"></a>
-                  <h5 class="card-title">{{ jsonData.skills[7].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[7].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[7].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-            <div class="col">
-  
-              <div class="card" id="skill-zoom">
-                <div class="card-body">
-                  <a href="" class="bi bi-server"></a>
-                  <h5 class="card-title">{{ jsonData.skills[8].title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">{{ jsonData.skills[8].level }}</h6>
-                  <p class="card-text">{{ jsonData.skills[8].experience }}</p>
-                </div>
-              </div>
-  
-            </div>
-            
-          </div> -->
           
         </div>
+
       </div>
       
+      <!-- Display a loading spinner when jsonData is not available -->
       <div v-else>
         <Spinner />
       </div>
@@ -268,18 +81,23 @@
   </template>
   
 <script>
+
+// Import the Spinner component
 import  Spinner from '@/components/Spinner.vue'
 
 export default {
   name: 'HomeView',
+  // Register the Spinner component
   components: {
     Spinner
   },
+  // Computed property to retrieve jsonData from the Vuex store
   computed:{
   jsonData(){
       return this.$store.state.jsonData
     }
-  },  
+  },
+  // Fetch data when the component is mounted
   mounted(){
     this.$store.dispatch('fetchJsonData')
   }
@@ -308,8 +126,8 @@ export default {
     }
     .card:hover{
       box-shadow: inset 0 -3em 3em floralwhite,
-      0 0 0 2px floralwhite,
-      0em 0em 1em #24ff02;
+      0 0 0 3px #7cef6a,
+      0em 0em 3em #24ff02;
       transform: scale(1.01);
     }
     .card-body{
@@ -324,7 +142,6 @@ export default {
       margin-left: 100px;
       margin-right: 0px;
     }
-
     #middle{
       animation: fadeIn 1s ease;
       animation-duration: 5s;
@@ -357,7 +174,7 @@ export default {
         100%{
           transform: translateX(0%);
         }
-      }
+    }
     @keyframes fadeIn {
         0%{
           opacity: 0%;
@@ -365,7 +182,7 @@ export default {
         100%{
           opacity: 100%;
         }
-      }
+    }
     @keyframes bounceIn {
         0% { 
           opacity: 0; 
@@ -381,14 +198,13 @@ export default {
         100% {
           transform: scale(1);
         }
-      }
-
-      @media screen and (max-width: 1080px){
+    }
+    @media screen and (max-width: 1080px){
         .row{
           margin-left: 0px;
         }
-      }
-      @media screen and (max-width: 720px){
+    }
+    @media screen and (max-width: 720px){
         /* .row{
           width: auto;
         }
@@ -400,21 +216,21 @@ export default {
           width: 170px;
           height: 650px;
         } */
-      }
-      @media screen and (max-width:360px){
+    }
+    @media screen and (max-width:360px){
         .row{
           margin-left: 5%;
         }
         .card{
           width: 18rem;
         }
-      }
-      @media screen and (max-width:300px){
+    }
+    @media screen and (max-width:300px){
         .row{
           margin-left: 5%;
         }
         .card{
           width: 15rem;
         }
-      }
+    }
 </style>
