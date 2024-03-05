@@ -18,7 +18,7 @@
                   <h5 class="card-title">{{ test.name }}</h5>
                   <p class="card-text">{{ test.quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: matthew@lifechoices.co.za" class="card-link">{{test.email}}</a>
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{test.email}}</a>
                 </div>
               </div>
             </div>
