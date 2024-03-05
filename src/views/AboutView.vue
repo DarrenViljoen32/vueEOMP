@@ -7,7 +7,8 @@
     <!-- Display content if jsonData is available, otherwise show a loading spinner -->
     <div v-if="jsonData">
       <!-- Display profile picture from the first item in the 'home' array -->
-      <img :src="jsonData.home[0].picture" class="rounded-circle border" alt="Profile Picture Loading...">
+      <!-- <img :src="jsonData.home[0].picture" class="rounded-circle border" alt="Profile Picture Loading..."> -->
+      <img src="https://i.postimg.cc/rsjBygKM/20231009-140315-00.jpg" class="rounded-circle border" alt="Profile Picture Loading...">
       <br><br><br>
       <div class="info">
         <!-- Display paragraphs from the 'about' array -->

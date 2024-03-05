@@ -40,7 +40,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[5].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[5].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/9Q4xW4zV/portfolio.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
@@ -62,7 +63,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[4].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[4].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/1zwJqLpj/ecommerce-Java-Script.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
@@ -84,7 +86,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[2].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[2].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/4dGwbBPN/ecommerce.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
@@ -111,7 +114,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[1].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[1].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/1tKBWw70/virtual-Calculator.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
@@ -134,7 +138,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[3].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[3].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/vHZqN2s4/bmi-Calculator.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
@@ -157,7 +162,8 @@
               <div class="card-inner">
                 <div class="card-img">
                   <!-- Display project image from the data -->
-                  <img :src="jsonData.projects[0].image" class="card-img-top" alt="Image Loading...">
+                  <!-- <img :src="jsonData.projects[0].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.postimg.cc/6pDMT9GZ/virtual-Keyboard.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->

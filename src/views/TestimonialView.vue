@@ -1,4 +1,5 @@
 <template>
+  
     <div class="testimonials">
       <h1 class="fw-bold" id="right">Testimonials</h1>
       <br><br>
@@ -9,19 +10,96 @@
 
           <!-- Iterate over testimonials data and create a card for each item -->
           <div class="row">
-            <div class="col" v-for="test in jsonData.testimonials" :key="test.name">
+
+            <div class="col">
               <div class="card" id="fade">
                 <!-- Display testimonial profile image from the data -->
-                <img :src="test.profile" class="card-img-top" alt="Image Loading...">
+                <img src="https://i.ibb.co/0X97CNH/matthew-1.png" class="card-img-top" alt="Image Loading...">
                 <div class="card-body">
                   <!-- Display testimonial name and quote from the data -->
-                  <h5 class="card-title">{{ test.name }}</h5>
-                  <p class="card-text">{{ test.quote }}</p>
+                  <h5 class="card-title">{{ jsonData.testimonials[0].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[0].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{test.email}}</a>
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[0].email}}</a>
                 </div>
               </div>
             </div>
+
+            <div class="col">
+              <div class="card" id="fade">
+                <!-- Display testimonial profile image from the data -->
+                <img src="https://i.ibb.co/dGq2Gvt/Me2-1.jpg" class="card-img-top" alt="Image Loading...">
+                <div class="card-body">
+                  <!-- Display testimonial name and quote from the data -->
+                  <h5 class="card-title">{{ jsonData.testimonials[1].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[1].quote }}</p>
+                  <!-- Display email as a link (mailto) from the data -->
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[1].email}}</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" id="fade">
+                <!-- Display testimonial profile image from the data -->
+                <img src="https://i.ibb.co/3TwPN4c/IMG-20231101-161112-1.jpg" class="card-img-top" alt="Image Loading...">
+                <div class="card-body">
+                  <!-- Display testimonial name and quote from the data -->
+                  <h5 class="card-title">{{ jsonData.testimonials[2].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[2].quote }}</p>
+                  <!-- Display email as a link (mailto) from the data -->
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[2].email}}</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Iterate over testimonials data and create a card for each item -->
+          <div class="row">
+
+            <div class="col">
+              <div class="card" id="fade">
+                <!-- Display testimonial profile image from the data -->
+                <img src="https://i.ibb.co/Qf3X6xW/IMG-20211025-134530-422-1.jpg" class="card-img-top" alt="Image Loading...">
+                <div class="card-body">
+                  <!-- Display testimonial name and quote from the data -->
+                  <h5 class="card-title">{{ jsonData.testimonials[3].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[3].quote }}</p>
+                  <!-- Display email as a link (mailto) from the data -->
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[3].email}}</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" id="fade">
+                <!-- Display testimonial profile image from the data -->
+                <img src="https://i.ibb.co/njmLkF7/20231103-075902-1.jpg" class="card-img-top" alt="Image Loading...">
+                <div class="card-body">
+                  <!-- Display testimonial name and quote from the data -->
+                  <h5 class="card-title">{{ jsonData.testimonials[4].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[4].quote }}</p>
+                  <!-- Display email as a link (mailto) from the data -->
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[4].email}}</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" id="fade">
+                <!-- Display testimonial profile image from the data -->
+                <img src="https://i.ibb.co/LQJyyJW/IMG-20221207-WA0009-2.jpg" class="card-img-top" alt="Image Loading...">
+                <div class="card-body">
+                  <!-- Display testimonial name and quote from the data -->
+                  <h5 class="card-title">{{ jsonData.testimonials[5].name }}</h5>
+                  <p class="card-text">{{ jsonData.testimonials[5].quote }}</p>
+                  <!-- Display email as a link (mailto) from the data -->
+                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[5].email}}</a>
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <!-- <div class="row">
