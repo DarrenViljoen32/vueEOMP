@@ -80,59 +80,29 @@
 
       <br><br>
       <h2 id="right">Accolades</h2>
+
       <div v-if="jsonData">
-        <!-- Display accolade information if jsonData is available -->
+
         <div class="row">
-          <div class="col">
+          <div class="col" v-for="accolade in jsonData.accolades" :key="accolade.title">
             <div class="card-whole" id="left">
               <div class="card-inner">
                 <div class="card-img">
-                  <img src="https://i.ibb.co/60TTnx3/Intro-To-Java-Script.png" class="card-img-top" alt="Image Loading...">
+                  <img :src="accolade.image" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[0].title }}</h5>
-                  <p class="card-text">{{ jsonData.accolades[0].subtitle }}</p>
-                  <p class="card-text">{{ jsonData.accolades[0].experience }}</p>
+                  <h5 class="card-title">{{ accolade.title }}</h5>
+                  <p class="card-text">{{ accolade.subtitle }}</p>
+                  <p class="card-text">{{ accolade.experience }}</p>
                 </div>
               </div>              
-            </div>
-          </div>
-  
-          <div class="col">
-            <div class="card-whole" id="middle">
-              <div class="card-inner">
-                <div class="card-img">
-                  <img src="https://i.ibb.co/163HvXM/Intro-To-HTML5.png" class="card-img-top" alt="Image Loading...">
-                </div>
-                <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[1].title }}</h5>
-                  <p class="card-text">{{ jsonData.accolades[1].subtitle }}</p>
-                  <p class="card-text">{{ jsonData.accolades[1].experience }}</p>
-                </div>
-              </div>              
-            </div>
-          </div>
-  
-          <div class="col">
-            <div class="card-whole" id="right">
-              <div class="card-inner">
-                <div class="card-img">
-                  <img src="https://i.ibb.co/1JJbN2Z/IC3-Spark.png" class="card-img-top" alt="Image Loading...">
-                </div>
-                <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[2].title }}</h5>
-                  <p class="card-text">{{ jsonData.accolades[2].subtitle }}</p>
-                  <p class="card-text">{{ jsonData.accolades[2].experience }}</p>
-                </div>
-              </div>
             </div>
           </div>
   
         </div>
 
       </div>
-      
-      <!-- Display a loading spinner when jsonData is not available -->
+
       <div v-else>
         <Spinner />
       </div>
@@ -217,6 +187,87 @@ export default {
     #skill-zoom{
       animation: bounceIn 1s ease;
       animation-duration: 10s;
+    }
+    .card-whole{
+        flex: 0 0 33.33%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .card-whole .card-inner{
+        border: 6px solid #24ff02;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+    .card-whole .card-inner:hover{
+        box-shadow: inset 0 -3em 3em floralwhite,
+        0 0 0 3px #7cef6a,
+        0em 0em 3em #24ff02;
+    }
+    .card-whole .card-inner .card-img img{
+        width: 100%;
+        display: block;
+    }
+    .card-whole .card-inner .card-info{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        transition: all 0.3s ease;
+        opacity: 0;
+    }
+    .card-whole .card-inner:hover .card-info{
+        opacity: 1;
+    }
+    .card-whole .card-inner .card-info h5{
+        font-size: 18px;
+        font-weight: 700;
+        color: floralwhite;
+        text-transform: capitalize;
+        transition: all 0.3s ease;
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    .card-whole .card-inner .card-info p{
+        color: floralwhite;
+        transition: all 0.3s ease;
+        transform: translateX(-20px);
+        opacity: 0;
+    } 
+    .card-whole .card-inner:hover .card-info h5{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    .card-whole .card-inner:hover .card-info p{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    .card-whole .card-inner .card-icon a{
+        height: 40px;
+        width: 40px;
+        background-color: floralwhite;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        opacity: 0;
+        transition: all 0.3s ease;
+        transform: translateX(20px);
+    }
+    .card-whole .card-inner .card-icon a{
+        color: floralwhite;
+        padding-left: 100px;
+        padding-top: 5px;
+        font-size: xx-large;
     }
 
     @keyframes fromLeft {
