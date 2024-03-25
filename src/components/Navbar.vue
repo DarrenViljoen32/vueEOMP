@@ -12,12 +12,12 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <!-- Navigation using router links -->
                 <div class="navbar-nav">
-                    <router-link to="/" class="nav-link"><span class="bi bi-house"> | </span>Home</router-link>
-                    <router-link to="/about" class="nav-link"><span class="bi bi-person"> | </span>About</router-link>
-                    <router-link to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Resume</router-link>
-                    <router-link to="/projects" class="nav-link"><span class="bi bi-file-earmark-code"> | </span>Projects</router-link>
-                    <router-link to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>Testimonials</router-link>
-                    <router-link to="/contact" class="nav-link"><span class="bi bi-envelope-at"> | </span>Contact</router-link>
+                    <router-link @click.native="closeNavbar" to="/" class="nav-link"><span class="bi bi-house"> | </span>Home</router-link>
+                    <router-link @click.native="closeNavbar" to="/about" class="nav-link"><span class="bi bi-person"> | </span>About</router-link>
+                    <router-link @click.native="closeNavbar" to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Resume</router-link>
+                    <router-link @click.native="closeNavbar" to="/projects" class="nav-link"><span class="bi bi-file-earmark-code"> | </span>Projects</router-link>
+                    <router-link @click.native="closeNavbar" to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>Testimonials</router-link>
+                    <router-link @click.native="closeNavbar" to="/contact" class="nav-link"><span class="bi bi-envelope-at"> | </span>Contact</router-link>
                 </div>
             </div>
         </div>
@@ -26,6 +26,29 @@
 </template>
 <script>
 export default {
+  methods: {
+    closeNavbar() {
+      // Close the offcanvas navbar when a link is clicked
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navbarToggler.classList.add('collapsed');
+      navbarCollapse.classList.remove('show');
+    },
+
+    handleClickOutside(event){
+      const navbar = this.$refs.navbar
+      if (navbar && !navbar.contains(event.target)){
+        this.closeNavbar()
+      }
+    }
+  },
+
+  mounted(){
+    document.addEventListener('click', this.handleClickOutside)
+  },
+  beforeDestroy() {
+    document.removeEventListener('click', this.handleClickOutside)
+  },
 }
 </script>
 <style>

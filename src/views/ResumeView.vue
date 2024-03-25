@@ -77,6 +77,66 @@
         <Spinner />
       </div>
 
+
+      <br><br>
+      <h2 id="right">Accolades</h2>
+      <div v-if="jsonData">
+        <!-- Display accolade information if jsonData is available -->
+        <div class="row">
+          <div class="col">
+            <div class="card-whole" id="left">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/60TTnx3/Intro-To-Java-Script.png" class="card-img-top" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[0].title }}</h5>
+                  <p class="card-text">{{ jsonData.accolades[0].subtitle }}</p>
+                  <p class="card-text">{{ jsonData.accolades[0].experience }}</p>
+                </div>
+              </div>              
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card-whole" id="middle">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/163HvXM/Intro-To-HTML5.png" class="card-img-top" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[1].title }}</h5>
+                  <p class="card-text">{{ jsonData.accolades[1].subtitle }}</p>
+                  <p class="card-text">{{ jsonData.accolades[1].experience }}</p>
+                </div>
+              </div>              
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card-whole" id="right">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/1JJbN2Z/IC3-Spark.png" class="card-img-top" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[2].title }}</h5>
+                  <p class="card-text">{{ jsonData.accolades[2].subtitle }}</p>
+                  <p class="card-text">{{ jsonData.accolades[2].experience }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+      </div>
+      
+      <!-- Display a loading spinner when jsonData is not available -->
+      <div v-else>
+        <Spinner />
+      </div>
+
     </div>
   </template>
   

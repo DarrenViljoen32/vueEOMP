@@ -10,7 +10,7 @@
             <ul class="list-unstyled mb-0">
                 <li><i class="bi bi-geo-alt-fill"></i>
                   <h4>Location</h4>
-                    <p>Cape Town, Western Cape, South Africa</p>
+                    <p>Riverton, Cape Town, Western Cape, South Africa</p>
                 </li>
             </ul>
         </div>

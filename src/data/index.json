@@ -7,8 +7,8 @@
         }
     ],
     "about":[
-        "Current Web Developer student passionate about data managing and machine learning. I have gained numerous skills through numerous initiatives to make my assigned projects a success and am always willing to go the extra mile. Proficient in a range of modern technologies such as HTML, CSS and Microsoft Office Suit.",
-        " As for my hobbies, I enjoy gaming, watching anime, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and paining."
+        "Current Full Stack Developer student passionate about data managing, programming and machine learning. I have gained many skills through numerous initiatives to make my assigned projects a success and am always willing to go the extra mile. I am proficient in a range of modern technologies such as HTML, CSS and Microsoft Office Suit.",
+        " As for my hobbies, I enjoy gaming, learning new Programming languages, doing Geographhy quizes, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and paining."
     ],
     "education":[
         {
@@ -87,6 +87,26 @@
             "title":"Strong Work Ethics",
             "level": "Intermediate",
             "experience":"Having a strong work ethic means that I'm Responisible and Accountable, Respectful and Fair as well as being Highly Motivated in my way of approaching my work."
+        }
+    ],
+    "accolades":[
+        {
+            "title":"Microsoft Technology Associate",
+            "subtitle": "Introduction to Programming using JavaScript",
+            "experience":"I have successfully completed the requirements to be recognized as a Microsoft Technology Associate for Introduction to Programming using JavaScript.",
+            "image":"https://i.ibb.co/60TTnx3/Intro-To-Java-Script.png"
+        },
+        {
+            "title":"Microsoft Technology Associate",
+            "subtitle": "HTML5 Application Development Fundamentals",
+            "experience":"I have successfully completed the requirements to be recognized as a Microsoft Technology Associate for HTML5 Application Development Fundamentals.",
+            "image":"https://i.ibb.co/163HvXM/Intro-To-HTML5.png"
+        },
+        {
+            "title":"IC3 Spark",
+            "subtitle": "Digital Literacy Certificate",
+            "experience":"I have successfully completed all IC3 Spark requirements for a Digital Literacy Certificate.",
+            "image":"https://i.ibb.co/1JJbN2Z/IC3-Spark.png"
         }
     ],
     "projects":[

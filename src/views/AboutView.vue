@@ -20,10 +20,13 @@
             <div class="personal-info pads">
                 <div class="row">
                     <div class="info-item pads">
+                        <p>Languages Spoken : English, Afrikaans</p>
+                    </div>
+                    <div class="info-item pads">
                         <p>Date of Birth : 12 March 1998</p>
                     </div>
                     <div class="info-item pads">
-                        <p>Age : 25</p>
+                        <p>Age : 26</p>
                     </div>
                     <div class="info-item pads">
                         <p>Phone : +27 74 867 1764</p>
@@ -32,7 +35,7 @@
                         <p>Email : darrenviljoen32@gmail.com</p>
                     </div>
                     <div class="info-item pads">
-                        <p>City : Cape Town</p>
+                        <p>Suburb, City : Riverton, Cape Town</p>
                     </div>
                     <div class="info-item pads">
                         <p>Freelance : N/A</p>
