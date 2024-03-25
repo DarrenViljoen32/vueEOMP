@@ -84,7 +84,7 @@
       <div v-if="jsonData">
 
         <div class="row">
-          <div class="col" v-for="accolade in jsonData.accolades" :key="accolade.title">
+          <div class="col-4" v-for="accolade in jsonData.accolades" :key="accolade.title">
             <div class="card-whole" id="left">
               <div class="card-inner">
                 <div class="card-img">
@@ -268,6 +268,9 @@ export default {
         padding-left: 100px;
         padding-top: 5px;
         font-size: xx-large;
+    }
+    .card-img{
+      height: 310px;
     }
 
     @keyframes fromLeft {
