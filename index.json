@@ -7,8 +7,8 @@
         }
     ],
     "about":[
-        "Current Full Stack Developer student passionate about data managing, programming and machine learning. I have gained many skills through numerous initiatives to make my assigned projects a success and am always willing to go the extra mile. I am proficient in a range of modern technologies such as HTML, CSS and Microsoft Office Suit.",
-        " As for my hobbies, I enjoy gaming, learning new Programming languages, doing Geographhy quizes, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and paining."
+        "Current Full Stack Developer student passionate about data managing, programming and machine learning. I have gained many skills through numerous initiatives to make my assigned projects a success and is always willing to go the extra mile. I am proficient in a range of modern technologies such as JavaScript, Vue3, Bootstrap5 and Microsoft Office Suit.",
+        " As for my hobbies, I enjoy gaming, learning new Programming languages, doing Geographhy quizes, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and painting."
     ],
     "education":[
         {
@@ -34,7 +34,7 @@
         {
             "title":"CTI (Pearson Education)",
             "year":"January 2016 - December 2018",
-            "description":"I spent 3 years at CTI where I studied a Bachelors in Information Technology. It is where I learned Programming, Database Management, and Project Management. Unfortunately I could not continue my studies at CTI for a multitude of reasons, completing 2 out of the 3 years required to graduate."
+            "description":"I spent 3 years at CTI where I studied towards a Bachelors Degree in Information Technology. It is where I learned Programming, Database Management, and Project Management. Unfortunately I could not continue my studies at CTI for a multitude of reasons, completing 2 out of the 3 years required to graduate."
         },
         {
             "title":"Goodwood College",
@@ -46,27 +46,27 @@
         {
             "title": "JavaScript",
             "level": "Intermediate",
-            "experience":"I am a Beginner at working with JavaScript and have much to learn. However, even as a beginner I am able to use JavaScript to my advantage. By using its Powerful frameworks, Ease of use and Versitility I am able to make my project more interactive that ever before."
+            "experience":"I am proficient at working with JavaScript but know I still have much to learn. However, even as a novice I am able to use JavaScript to my advantage. By using its Powerful frameworks, Ease of use and Versitility I am able to make my projects more interactive that ever before."
         },
         {
-            "title":"Bootstrap CSS",
+            "title":"Bootstrap & CSS",
             "level": "Intermediate",
-            "experience":"As an aspiring Web Developer, using CSS makes completing projects much easier. CSS make it possible to make my websites at a quicker development time with faster page loading speeds. This, along with having compatibility across multiple devices makes for an overall better User Experience."
+            "experience":"As an aspiring Web Developer, using Bootstrap makes completing projects much easier. Bootstrap make it possible to create my websites with a quicker development time and faster page loading speeds. This, along with having compatibility across multiple devices makes for an overall better User Experience."
         },
         {
             "title":"HTML5",
             "level": "Intermediate",
-            "experience":"Being proficient in HTML5 means that I am able to create websites that are dynamic and responsive. By making use of Semantic Elements, Responive Media Queries, and Keyframe Animations (to name a few), making refined yet stylish websites becomes a breeze."
+            "experience":"Being proficient in HTML5 means that I am able to create websites that are dynamic and responsive. By making use of Semantic Elements, Responive Media Queries, and Keyframe Animations, making refined yet stylish websites becomes a breeze."
         },
         {
             "title":"Web Design",
             "level": "Beginner",
-            "experience":"As someone aspiring to make it in the IT industry, I've developed a passion for Web Design. I strive to make every website I create be a modern expression of the client's specifications as well as ensuring that every part of the website is a perfect relfection of the client's own needs."
+            "experience":"As someone aspiring to enter into the IT industry, I've developed a passion for Web Design. I strive to make every website I create be a modern expression of the client's specifications as well as ensuring that every part of the website is a perfect relfection of the client's own needs."
         },
         {
             "title":"Web Development",
             "level": "Beginner",
-            "experience":"Being a Web Developer requires one to not only be proficient in Front-End web design, but to also have knowledge on Back-End development. Using language tools such as PHP and MySQL, I have obtained a fair bit of skills concerning Back-End development."
+            "experience":"Being a Web Developer requires one to not only be proficient in Front-End web design, but to also have knowledge on Back-End development. Using language tools such as Express.js and MySQL, I have obtained a fair bit of skills concerning Back-End development."
         },
         {
             "title":"UI/UX Design",
@@ -164,13 +164,13 @@
             "name":"Corné Balie",
             "quote":"I've had the pleasure of working with Darren, and I wholeheartedly recommend him. His strong work ethic, passion for coding, and dedication to learning make him an exceptional student. He is both a problem solver and a terrific team player.",
             "email":"cornebalie789@gmail.com",
-            "profile":"https://i.ibb.co/dGq2Gvt/Me2-1.jpg"
+            "profile":"https://i.ibb.co/hH2jnH3/20231009-142111crop.jpg"
         },
         {
             "name":"Jason September",
             "quote":"Darren is a fantastic individual who i've had the pleasure of working with, he's always calm and level headed and always think things through that counts for his work as well and for that I admire him as colleague, companion and friend.",
             "email":"septemberj626@gmail.com",
-            "profile":"https://i.ibb.co/3TwPN4c/IMG-20231101-161112-1.jpg"
+            "profile":"https://i.ibb.co/177jjx9/20231009-142232crop.jpg"
         },
         {
             "name":"Damon Raffels",
@@ -182,13 +182,13 @@
             "name":"Brandon Roulstone",
             "quote":"Darren is an effective Web Designer, he is very responsive and a pleasure to work with. He regularly goes above and beyond in all his Programming challenges. His best attributes are certainly his Intelligence when it comes to Web Design. Darren is a hardworking individual who displays an good understanding in the software development industry and has proven to be on of the best in our cohort.",
             "email":"brandonroulstone71@gmail.com",
-            "profile":"https://i.ibb.co/njmLkF7/20231103-075902-1.jpg"
+            "profile":"https://i.ibb.co/vzKCgMJ/20231009-135626crop.jpg"
         },
         {
             "name":"Unity Demas",
             "quote":"Darren's software development abilities are simply outstanding. His expertise in frontend programming can be seen in the fluid and visually attractive user interfaces he produces. Darren's strong personality shines through in his unwavering dedication and ability to lead and motivate his peers.",
             "email":"unitydemas12@gmail.com",
-            "profile":"https://i.ibb.co/LQJyyJW/IMG-20221207-WA0009-2.jpg"
+            "profile":"https://i.ibb.co/z6P3Wm3/20231009-141958crop.jpg"
         }
     ],
     "contact":[
