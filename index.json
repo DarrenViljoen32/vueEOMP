@@ -151,6 +151,13 @@
             "image":"https://i.postimg.cc/nL6jTGVF/portfolio.png",
             "github":"https://github.com/DarrenViljoen32/eomp_Project.git",
             "netlify":"https://eomp-project.netlify.app/"
+        },
+        {
+            "name":"Social Media Platform (Incomplete)",
+            "description":"Made using Vue3, NodeJS, JavaScript and MySQL",
+            "image":"https://i.ibb.co/Bc2JHHF/capstone-Project-Image.png",
+            "github":"https://github.com/DarrenViljoen32/backup_CAPSTONE.git",
+            "netlify":"https://capstoneproject-fdda5.web.app/"
         }
     ],
     "testimonials":[
