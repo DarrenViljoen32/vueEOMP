@@ -386,4 +386,11 @@ export default {
           width: 15rem;
         }
     }
+    @media screen and (min-width: 300px){
+        .card{
+          width: 15rem;
+          margin-left: 0px;
+        }
+
+    }
 </style>

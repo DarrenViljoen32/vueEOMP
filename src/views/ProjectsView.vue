@@ -196,7 +196,7 @@
                   <h5 class="card-title">{{ jsonData.projects[6].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[6].description }}</p>
                   <a :href="jsonData.projects[6].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[6].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[6].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Firebase"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
