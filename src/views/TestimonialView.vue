@@ -28,7 +28,7 @@
             <div class="col">
               <div class="card" id="fade">
                 <!-- Display testimonial profile image from the data -->
-                <img src="https://i.ibb.co/dGq2Gvt/Me2-1.jpg" class="card-img-top" alt="Image Loading...">
+                <img src="https://i.ibb.co/hH2jnH3/20231009-142111crop.jpg" class="card-img-top" alt="Image Loading...">
                 <div class="card-body">
                   <!-- Display testimonial name and quote from the data -->
                   <h5 class="card-title">{{ jsonData.testimonials[1].name }}</h5>
@@ -42,7 +42,7 @@
             <div class="col">
               <div class="card" id="fade">
                 <!-- Display testimonial profile image from the data -->
-                <img src="https://i.ibb.co/3TwPN4c/IMG-20231101-161112-1.jpg" class="card-img-top" alt="Image Loading...">
+                <img src="https://i.ibb.co/177jjx9/20231009-142232crop.jpg" class="card-img-top" alt="Image Loading...">
                 <div class="card-body">
                   <!-- Display testimonial name and quote from the data -->
                   <h5 class="card-title">{{ jsonData.testimonials[2].name }}</h5>
@@ -75,7 +75,7 @@
             <div class="col">
               <div class="card" id="fade">
                 <!-- Display testimonial profile image from the data -->
-                <img src="https://i.ibb.co/njmLkF7/20231103-075902-1.jpg" class="card-img-top" alt="Image Loading...">
+                <img src="https://i.ibb.co/vzKCgMJ/20231009-135626crop.jpg" class="card-img-top" alt="Image Loading...">
                 <div class="card-body">
                   <!-- Display testimonial name and quote from the data -->
                   <h5 class="card-title">{{ jsonData.testimonials[4].name }}</h5>
@@ -89,7 +89,7 @@
             <div class="col">
               <div class="card" id="fade">
                 <!-- Display testimonial profile image from the data -->
-                <img src="https://i.ibb.co/LQJyyJW/IMG-20221207-WA0009-2.jpg" class="card-img-top" alt="Image Loading...">
+                <img src="https://i.ibb.co/z6P3Wm3/20231009-141958crop.jpg" class="card-img-top" alt="Image Loading...">
                 <div class="card-body">
                   <!-- Display testimonial name and quote from the data -->
                   <h5 class="card-title">{{ jsonData.testimonials[5].name }}</h5>
