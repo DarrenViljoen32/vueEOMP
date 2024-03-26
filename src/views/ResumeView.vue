@@ -2,6 +2,19 @@
     <div class="resume">
       <h1 class="fw-bold" id="right">Resume</h1>
       <br><br>
+
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+        <div class="col buttons pads">
+          <a href="https://docs.google.com/document/d/1yxXwSmmh3eHerKS70qtUNjyLnusV_G6GMb-GeruSLjE/edit?usp=drive_link" target="_blank" class="cv" id="cv">
+              <button class="cv" id="cv">Checkout My CV!</button>
+          </a>
+        </div>
+      </div>
+
+      <br><br>
       <h2 id="right">Education</h2>
 
       <!-- Display education information if jsonData is available -->
@@ -9,7 +22,7 @@
 
         <div class="container text-center">
 
-          <div class="row">
+          <div class="row" id="education">
             <!-- Loop through education data and create a card for each item -->
             <div class="col" v-for="edu in jsonData.education" :key="edu.title">
               <div class="card" id="skill-zoom">
@@ -43,6 +56,37 @@
       <div v-else>
         <Spinner />
       </div>
+      
+      <br><br>
+      <h2 id="right">Accolades & Achievments</h2>
+      
+      <div v-if="jsonData">
+      
+        <div class="row">
+          
+          <div class="col-4" v-for="accolade in jsonData.accolades" :key="accolade.title">
+            <div class="card-whole" id="middle">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img :src="accolade.image" class="card-img-top img-fluid" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ accolade.title }}</h5>
+                  <p class="card-text">{{ accolade.subtitle }}</p>
+                  <p class="card-text">{{ accolade.experience }}</p>
+                </div>
+              </div>              
+            </div>
+          </div>
+        
+        </div>
+      
+      </div>
+      
+      <div v-else>
+        <Spinner />
+      </div>
+
 
 
       <br><br>
@@ -53,7 +97,7 @@
 
         <div class="container text-center">
 
-          <div class="row">
+          <div class="row" id="skills">
             <!-- Loop through skills data and create a card for each item -->
             <div class="col" v-for="skill in jsonData.skills" :key="skill.title">
               <div class="card" id="skill-zoom">
@@ -77,35 +121,6 @@
         <Spinner />
       </div>
 
-
-      <br><br>
-      <h2 id="right">Accolades</h2>
-
-      <div v-if="jsonData">
-
-        <div class="row">
-          <div class="col-4" v-for="accolade in jsonData.accolades" :key="accolade.title">
-            <div class="card-whole" id="left">
-              <div class="card-inner">
-                <div class="card-img">
-                  <img :src="accolade.image" class="card-img-top" alt="Image Loading...">
-                </div>
-                <div class="card-info">
-                  <h5 class="card-title">{{ accolade.title }}</h5>
-                  <p class="card-text">{{ accolade.subtitle }}</p>
-                  <p class="card-text">{{ accolade.experience }}</p>
-                </div>
-              </div>              
-            </div>
-          </div>
-  
-        </div>
-
-      </div>
-
-      <div v-else>
-        <Spinner />
-      </div>
 
     </div>
   </template>
@@ -169,11 +184,15 @@ export default {
       font-size: xx-large;
     }
     .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #education, #skills{
       margin-left: 100px;
       margin-right: 0px;
     }
     #middle{
-      animation: fadeIn 1s ease;
+      animation: fadeIn 3s ease;
       animation-duration: 5s;
     }
     #left{
@@ -270,7 +289,22 @@ export default {
         font-size: xx-large;
     }
     .card-img{
-      height: 310px;
+      height: auto;
+    }
+    .cv{
+      font-size: large;
+    }
+    button{
+      background-color: #24ff02;
+      color: floralwhite;
+      height: 55px;
+      border-radius: 10px;
+    }
+    button:hover{
+      transform: scale(1.05);
+      box-shadow: inset 0 -3em 3em #24ff02,
+      0 0 0 2px floralwhite,
+      0em 0em 3em #24ff02;
     }
 
     @keyframes fromLeft {
@@ -316,6 +350,11 @@ export default {
     @media screen and (max-width: 1080px){
         .row{
           margin-left: 0px;
+        }
+    }
+    @media screen and (min-width: 1080px){
+        .card-whole .card-inner{
+          height: 350px;
         }
     }
     @media screen and (max-width: 720px){

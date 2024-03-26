@@ -26,12 +26,12 @@
         <h1 class="ani-home fw-bold">{{ ho.name }}</h1>
         <h2 class="ani-home fw-bold">{{ ho.intro }}</h2>
         <!-- Display Social Media Links -->
-        <div class="ani-home">
+        <!-- <div class="ani-home">
           <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> | 
           <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a> | 
           <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> | 
           <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- Display a loading spinner when jsonData is not available -->

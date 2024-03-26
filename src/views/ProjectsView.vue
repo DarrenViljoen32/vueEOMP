@@ -48,8 +48,8 @@
                   <h5 class="card-title">{{ jsonData.projects[5].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[5].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[5].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[5].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[5].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[5].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
@@ -71,8 +71,8 @@
                   <h5 class="card-title">{{ jsonData.projects[4].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[4].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[4].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[4].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[4].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[4].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
@@ -94,8 +94,8 @@
                   <h5 class="card-title">{{ jsonData.projects[2].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[2].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[2].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[2].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[2].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[2].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
@@ -122,8 +122,8 @@
                   <h5 class="card-title">{{ jsonData.projects[1].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[1].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[1].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[1].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[1].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[1].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
@@ -146,8 +146,8 @@
                   <h5 class="card-title">{{ jsonData.projects[3].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[3].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[3].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[3].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[3].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[3].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>
@@ -170,8 +170,8 @@
                   <h5 class="card-title">{{ jsonData.projects[0].name }}</h5>
                   <p class="card-text">{{ jsonData.projects[0].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[0].github"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[0].netlify"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[0].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[0].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
               <label for=".card-whole">Hover for Details!</label>

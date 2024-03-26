@@ -20,7 +20,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[0].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[0].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[0].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[0].email}}</a>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[1].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[1].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[1].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[1].email}}</a>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[2].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[2].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[2].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[2].email}}</a>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[3].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[3].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[3].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[3].email}}</a>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[4].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[4].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[4].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[4].email}}</a>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@
                   <h5 class="card-title">{{ jsonData.testimonials[5].name }}</h5>
                   <p class="card-text">{{ jsonData.testimonials[5].quote }}</p>
                   <!-- Display email as a link (mailto) from the data -->
-                  <a href="mailto: darrenviljoen32@gmail.com" class="card-link">{{jsonData.testimonials[5].email}}</a>
+                  <a class="card-link">{{jsonData.testimonials[5].email}}</a>
                 </div>
               </div>
             </div>
