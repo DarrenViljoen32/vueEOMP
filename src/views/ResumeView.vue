@@ -397,8 +397,11 @@ export default {
           margin-right: 0px;
         }
         .card-inner{
-          height: 350px;
-          width: 500px;
+          height: 180px;
+          width: 255px;
+        }
+        .card-whole{
+          margin-right: 50px;
         }
     }
 </style>
