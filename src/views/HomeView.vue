@@ -109,6 +109,11 @@ h1{
     font-size: large;
   }
 }
+@media screen and (max-width:300px){
+  img{
+    margin-top: 30%;
+  }
+}
 
 
 /* Background Animation */

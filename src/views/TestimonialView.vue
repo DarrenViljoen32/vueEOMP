@@ -241,10 +241,21 @@
     }
     @media screen and (max-width:300px){
         .row{
-          margin-left: 5%;
+          margin-left: 1%;
         }
         .card{
           width: 15rem;
+        }
+    }
+    @media screen and (min-width: 300px){
+        .card{
+          width: 15rem;
+          margin-left: 0px;
+          height: 755px;
+        }
+        .row{
+          margin-left: 5px;
+          margin-right: 0px;
         }
     }
 </style>

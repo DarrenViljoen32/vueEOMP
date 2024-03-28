@@ -372,7 +372,7 @@ export default {
     }
     @media screen and (max-width:360px){
         .row{
-          margin-left: 5%;
+          margin-left: 1%;
         }
         .card{
           width: 18rem;
@@ -380,7 +380,7 @@ export default {
     }
     @media screen and (max-width:300px){
         .row{
-          margin-left: 5%;
+          margin-left: 1%;
         }
         .card{
           width: 15rem;
@@ -390,7 +390,11 @@ export default {
         .card{
           width: 15rem;
           margin-left: 0px;
+          height: 465px;
         }
-
+        #education, #skills{
+          margin-left: 5px;
+          margin-right: 0px;
+        }
     }
 </style>
