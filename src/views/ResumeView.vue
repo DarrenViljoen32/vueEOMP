@@ -396,5 +396,9 @@ export default {
           margin-left: 5px;
           margin-right: 0px;
         }
+        .card-inner{
+          height: 350px;
+          width: 500px;
+        }
     }
 </style>
