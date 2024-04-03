@@ -17,19 +17,9 @@
             "description":"A 6 Month bootcamp where I learnt the basics of Programming, as well as Professional Development where I learnt the valuable knowledge of work ethincs and professionalism."
         },
         {
-            "title":"Tira Telcoms",
-            "year":"December 2021 - March 2022",
-            "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
-        },
-        {
             "title":"G-CITI Campus",
             "year":"February 2021 - November 2021",
             "description":"A 9 Month course where I learned the fundamentals of front-end and back-end Web and Mobile App Development. During my time here I worked as part of a team to develop a dynamic and responsive website for a local primary school."
-        },
-        {
-            "title":"Kukhula Global Projects",
-            "year":"January 2020 - December 2020",
-            "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
         },
         {
             "title":"CTI (Pearson Education)",
@@ -40,6 +30,26 @@
             "title":"Goodwood College",
             "year":"January 2011 - December 2015",
             "description":"This is were I attended High-School starting from 2011. A 'diligent learner and an obediant pupal' are the words one would describe me during this time. I Matriculated in 2015 with a Diploma in Tourism."
+        }
+    ],
+    "work":[
+        {
+            "title":"Life Choices Studio",
+            "position":"Intern",
+            "year":"March 2024 - Present",
+            "description":"A 6 Month Internship where I'm getting the opportunity to upskill myself in hard and soft skills, starting with Software Engineering"
+        },
+        {
+            "title":"Tira Telcoms",
+            "position":"Learner",
+            "year":"December 2021 - March 2022",
+            "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
+        },
+        {
+            "title":"Kukhula Global Projects",
+            "position":"Learner",
+            "year":"January 2020 - December 2020",
+            "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
         }
     ],
     "skills":[
