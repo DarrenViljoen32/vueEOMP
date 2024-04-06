@@ -24,7 +24,9 @@
     "@vue/cli-plugin-pwa": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.1"
   },
   "browserslist": [
     "> 1%",

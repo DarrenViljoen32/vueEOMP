@@ -1,14 +1,14 @@
 <template>
   <Navbar/>
   <router-view/>
-  <Footer/>
+  <!-- <Footer/> -->
 </template>
 
 <script>
 // IMPORT COMPONENTS
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
-import Spinner from "./components/Spinner.vue"
+import Spinner from "./components/Spinner.vue";
 
 
 export default {
@@ -31,7 +31,7 @@ export default {
   text-align: center;
   color: floralwhite;
   background-color: #000000;
-  background-image: url("https://i.postimg.cc/RZV6PptJ/wallpaperflare-com-wallpaper-1.jpg");
+  /* background-image: url("https://i.ibb.co/d0Jbfvz/wp2799850-tron-grid-wallpaper.jpg"); */
   background-repeat: repeat-y;
   background-size: 1550px;
   background-attachment: fixed;

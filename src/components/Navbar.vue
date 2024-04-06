@@ -3,7 +3,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">Darren Viljoen</a>
+            <a class="navbar-brand" href="/">DARREN VILJOEN</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
                 <div class="navbar-nav">
                     <router-link @click.native="closeNavbar" to="/" class="nav-link"><span class="bi bi-house"> | </span>Home</router-link>
                     <router-link @click.native="closeNavbar" to="/about" class="nav-link"><span class="bi bi-person"> | </span>About</router-link>
-                    <router-link @click.native="closeNavbar" to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Resume</router-link>
+                    <router-link @click.native="closeNavbar" to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Education & Experience</router-link>
                     <router-link @click.native="closeNavbar" to="/projects" class="nav-link"><span class="bi bi-file-earmark-code"> | </span>Projects</router-link>
                     <router-link @click.native="closeNavbar" to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>Testimonials</router-link>
                     <router-link @click.native="closeNavbar" to="/contact" class="nav-link"><span class="bi bi-envelope-at"> | </span>Contact</router-link>
@@ -51,7 +51,7 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
   .bi{
     color: black;
     font-size: large;
@@ -63,13 +63,13 @@ export default {
   }
   nav a {
     font-weight: bold;
-    color: #a0e714;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding-left: 0%;
     font-size: larger;
   }
  .navbar-nav a:hover {
-    color: #24ff02;
+    color: black;
   }
   /* nav a.router-link-exact-active {
     color: red;
@@ -78,9 +78,39 @@ export default {
     padding-left: 0%;
     padding-right: 0%;
   }
+  .nav-link:hover{
+    text-shadow: 0em 0em 5px rgb(8, 174, 174);
+  }
+  .navbar-brand:hover{
+    text-shadow: 0em 0em 5px cyan;
+  }
+
+  @media screen and (max-width: 1080px){
+    .nav-link{
+      font-size: large;
+    }
+  }
   @media screen and (min-width: 1080px) {
     .navbar-nav{
     padding-left: 0%;
+    }
+    .nav-link{
+      font-size: medium;
+    }
+  }
+  @media screen and (min-width: 300px){
+    .navbar{
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    .navbar-brand{
+      font-size: medium;
+    }
+    .nav-link{
+      font-size: small;
+    }
+    button{
+      margin-right: 10px;
     }
   }
 </style>

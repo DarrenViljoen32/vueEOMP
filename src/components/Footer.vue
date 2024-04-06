@@ -2,7 +2,7 @@
 <template lang="">
     <footer>
         <!-- Get current year using JAVASCRIPT -->
-        <p class="rainbow_text animated">&copy; Copyright <span id="year">{{new Date().getFullYear()}}</span> Made By Darren Viljoen. All Rights Reserved.</p>
+        <p class="rainbow_text animated">&copy;<span id="year">{{new Date().getFullYear()}}</span> Darren Viljoen. All Rights Reserved</p>
     </footer>
 </template>
 <script>
@@ -27,7 +27,7 @@ export default {
         display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
         background: black;
-        background: linear-gradient(to right, red, orange , yellow, green, blue, indigo, violet);
+        background: linear-gradient(to right, red, orange , magenta, green, blue, indigo, violet);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
