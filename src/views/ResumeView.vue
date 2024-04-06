@@ -498,7 +498,7 @@ export default {
   }
   .eduCard{
     width: 16rem;
-    height: 380px;
+    height: 390px;
   }
   .card-text{
     font-size: 16px;
