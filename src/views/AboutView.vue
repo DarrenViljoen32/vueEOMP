@@ -531,8 +531,8 @@ a{
   .card-whole{
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 45px;
-    padding-right: 0px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
   .card-whole .card-inner{
     width: 400px;
