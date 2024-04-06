@@ -1,7 +1,7 @@
 <template>
   
     <div class="testimonials">
-      <h1 class="fw-bold" id="referenceTitle" title="References">References</h1>
+      <h1 class="fw-bold" id="referenceTitle" title="">References</h1>
       <br><br>
 
       <!-- Display testimonials information if jsonData is available -->

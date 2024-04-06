@@ -1,6 +1,6 @@
 <template>
     <div class="resume">
-      <h1 class="fw-bold" id="resumeTitle" title="Education & Experience">Education & Experience</h1>
+      <h1 class="fw-bold" id="resumeTitle" title="">Education & Experience</h1>
       <br><br>
 
       <!-- <div class="row">
@@ -15,7 +15,7 @@
       </div> -->
 
       <br><br>
-      <h2 id="resumeTitle" title="Education">Education</h2>
+      <h2 id="resumeTitle" title="">Education</h2>
 
       <!-- Display education information if jsonData is available -->
       <div v-if="jsonData">
@@ -109,7 +109,7 @@
       </div> -->
 
       <br><br><br><br><hr><br><br><br><br>
-      <h2 id="resumeTitle" title="Work Experience">Work Experience</h2>
+      <h2 id="resumeTitle" title="">Work Experience</h2>
 
       <div v-if="jsonData">
         <div class="text-center">

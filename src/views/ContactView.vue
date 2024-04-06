@@ -2,7 +2,7 @@
 
     <!-- Display contact information if jsonData is available -->
     <div class="contact" v-if="jsonData">
-      <h1 class="fw-bold" id="contactTitle" title="Contact Me">Contact Me</h1>
+      <h1 class="fw-bold" id="contactTitle" title="">Contact Me</h1>
       <br><br>
 
       <div class="row" id="">
@@ -69,7 +69,7 @@
         
         <div class="col">
 
-          <h3 class="fw-bold col"  id="contactTitle" title="Send Me a Message via Email">Send Me a Message via Email</h3>
+          <h3 class="fw-bold col"  id="contactTitle" title="">Send Me a Message via Email</h3>
     
           <div class="row">
     

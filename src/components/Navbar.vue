@@ -16,7 +16,7 @@
                     <router-link @click.native="closeNavbar" to="/about" class="nav-link"><span class="bi bi-person"> | </span>About</router-link>
                     <router-link @click.native="closeNavbar" to="/resume" class="nav-link"><span class="bi bi-file-person"> | </span>Education & Experience</router-link>
                     <router-link @click.native="closeNavbar" to="/projects" class="nav-link"><span class="bi bi-file-earmark-code"> | </span>Projects</router-link>
-                    <router-link @click.native="closeNavbar" to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>Testimonials</router-link>
+                    <router-link @click.native="closeNavbar" to="/testimonials" class="nav-link"><span class="bi bi-person-check"> | </span>References</router-link>
                     <router-link @click.native="closeNavbar" to="/contact" class="nav-link"><span class="bi bi-envelope-at"> | </span>Contact</router-link>
                 </div>
             </div>

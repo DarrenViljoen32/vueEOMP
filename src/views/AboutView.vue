@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="titleDiv">
-      <h1 class="fw-bold" id="aboutTitle" title="About Me">About Me</h1>
+      <h1 class="fw-bold" id="aboutTitle" title="">About Me</h1>
       <h3 id="aboutSub"><span>Hello, I'm Darren Viljoen, an Aspiring Developer</span></h3>
     </div>
     <br><br><br>
@@ -42,7 +42,7 @@
 
       <br><br><br><br><hr><br><br><br><br>
 
-      <h2 class="fw-bold" id="aboutTitle" title="Additional Information">Additional Information</h2>
+      <h2 class="fw-bold" id="aboutTitle" title="">Additional Information</h2>
       <div class="row">
 
         <div class="col-2"></div>
@@ -116,7 +116,7 @@
 
     <br><br><br><br><hr><br><br><br><br>
 
-    <h2 id="aboutTitle" title="Accolades & Achievments">Accolades & Achievments</h2>
+    <h2 id="aboutTitle" title="">Accolades & Achievments</h2>
       <br>
 
       <div v-if="jsonData">
@@ -178,7 +178,7 @@
 
       <br><br><br><br><hr><br><br><br><br>
 
-      <h2 id="aboutTitle" title="Skills">Skills</h2>
+      <h2 id="aboutTitle" title="">Skills</h2>
 
       <!-- Display skills information if jsonData is available -->
       <div v-if="jsonData">

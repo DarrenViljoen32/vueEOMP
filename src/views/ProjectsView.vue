@@ -1,6 +1,6 @@
 <template>
     <div class="projects">
-      <h1 class="fw-bold" id="projectTitle" title="Projects">Projects</h1>
+      <h1 class="fw-bold" id="projectTitle" title="">Projects</h1>
       <br><br>
 
     <!-- Display projects information if jsonData is available -->
