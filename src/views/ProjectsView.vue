@@ -1,12 +1,12 @@
 <template>
     <div class="projects">
-      <h1 class="fw-bold" id="right">Projects</h1>
+      <h1 class="fw-bold" id="projectTitle" title="Projects">Projects</h1>
       <br><br>
 
     <!-- Display projects information if jsonData is available -->
     <div v-if="jsonData">
 
-      <div class="container text-center">
+      <div class="text-center">
 
         <!-- COMMENTED OUT BECAUSE CAN'T STYLE CARDS INDIVIDUALLY -->
 
@@ -52,7 +52,7 @@
                   <a :href="jsonData.projects[5].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">Bootstrap5 Portfolio</label>
               
             </div>
           </div>
@@ -75,7 +75,7 @@
                   <a :href="jsonData.projects[4].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">JavaScript Ecommerce Website</label>
               
             </div>
           </div>
@@ -98,7 +98,7 @@
                   <a :href="jsonData.projects[2].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">HTML5 & CSS Ecommerce Website</label>
               
             </div>
 
@@ -126,7 +126,7 @@
                   <a :href="jsonData.projects[1].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">Virtual Calculator</label>
               
             </div>
           </div>
@@ -150,7 +150,7 @@
                   <a :href="jsonData.projects[3].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">BMI Calculator</label>
               
             </div>
           </div>
@@ -174,7 +174,7 @@
                   <a :href="jsonData.projects[0].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">Virtual Keyboard</label>
               
             </div>
           </div>
@@ -182,7 +182,7 @@
         </div>
 
         <div class="row">
-          <div class="col"></div>
+          <div class="col-4"></div>
 
           <div class="col">
             
@@ -199,12 +199,12 @@
                   <a :href="jsonData.projects[6].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Firebase"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Hover for Details!</label>
+              <label for=".card-whole">Sign In / Log In System</label>
               
             </div>
           </div>
 
-          <div class="col"></div>
+          <div class="col-4"></div>
         </div>
         
       </div>
@@ -243,12 +243,18 @@ export default {
 </script>
 <style scoped>
     .projects{
-      padding-bottom: 2%;
+      padding-top: 5%;
+      padding-bottom: 0%;
+      background-image: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/d0Jbfvz/wp2799850-tron-grid-wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
     h1{
       margin-top: 55px;
       padding-top: 50px;
-      color: #24ff02;
+      color: rgb(255, 255, 255);
+      text-shadow: 0em 0em 10px cyan;    
     }
     h1, h2, h3{
       text-align: initial;
@@ -256,13 +262,13 @@ export default {
       padding-right: 15%;
     }
     img{
-      height: 250px;
+      height: 210px;
     }
     a{
       text-decoration: none;
     }
     button{
-    background-color: #24ff02;
+    background-color: cyan;
     color: floralwhite;
     height: 55px;
     border-radius: 10px;
@@ -313,13 +319,76 @@ export default {
           opacity: 100%;
         }
     }
+
+#projectTitle{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+#projectTitle::before, #projectTitle:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  padding-left: 228px;
+}
+
+#projectTitle::before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+#projectTitle::after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
+
+
+
     .card-whole{
         flex: 0 0 33.33%;
         max-width: 100%;
         margin-bottom: 30px;
+        padding-left: 10%;
     }
     .card-whole .card-inner{
-        border: 6px solid #24ff02;
+        border: 6px solid cyan;
         border-radius: 10px;
         overflow: hidden;
         cursor: pointer;
@@ -327,8 +396,8 @@ export default {
     }
     .card-whole .card-inner:hover{
         box-shadow: inset 0 -3em 3em floralwhite,
-        0 0 0 3px #7cef6a,
-        0em 0em 3em #24ff02;
+        0 0 0 3px rgb(8, 174, 174),
+        0em 0em 3em cyan;
     }
     .card-whole .card-inner .card-img img{
         width: 100%;
@@ -400,14 +469,42 @@ export default {
         font-size: larger;
         margin: 10px;
     }
+
+
+    @media screen and (min-width: 1081px){
+      .card-whole{
+        width: 25rem;
+      }
+    }
+    @media screen and (max-width: 1080px){
+      .card-whole{
+        width: 10rem;
+      }
+    }
     @media screen and (max-width: 720px){
         .card-whole{
           width: 500px;
         }
     }
-    @media screen and (max-width: 1080px){
+    @media screen and (max-width: 360px){
         .card-whole{
-          width: 18rem;
+          width: 500px;
         }
+    }
+    @media screen and (max-width: 300px) {
+      .row{
+        margin-left: 5px;
+        padding-left: 0px;
+      }
+      .card-whole .card-inner{
+        height: 13rem;
+        width: 15rem;
+      }
+      .card-title{
+        font-size: 20px;
+      }
+      .card-text{
+        font-size: 10px;
+      }
     }
 </style>

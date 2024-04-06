@@ -1,9 +1,10 @@
 <template>
   <div class="home">
     <!-- <br><br><br><br><br><br> -->
-
+    
     <!-- Backgroung Animations -->
-
+    
+    
     <!-- <div class="square"> 
       <div class="square-title"></div>
       <div class="shape"></div>
@@ -13,33 +14,40 @@
       <div class="shape"></div>
       <div class="shape"></div>
     </div> -->
-     
+    
     <!-- Conditional rendering: Display content if jsonData is available, otherwise show a loading spinner -->
     <div v-if="jsonData">
-      <!-- Loop through items in jsonData.home -->
-      <div v-for="ho in jsonData.home" :key="ho.name">
-        <!-- Display profile picture -->
-        <!-- <img :src="ho.picture" class="rounded-circle border" alt=""> -->
-        <img src="https://i.postimg.cc/rsjBygKM/20231009-140315-00.jpg" class="rounded-circle border" alt="">
-        <br>
-        <!-- Display name and introduction -->
-        <h1 class="ani-home fw-bold">{{ ho.name }}</h1>
-        <h2 class="ani-home fw-bold">{{ ho.intro }}</h2>
-        <!-- Display Social Media Links -->
-        <!-- <div class="ani-home">
-          <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> | 
-          <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a> | 
-          <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> | 
-          <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
-        </div> -->
+        <!-- Loop through items in jsonData.home -->
+        <div v-for="ho in jsonData.home" :key="ho.name">
+          <!-- Display profile picture -->
+          <!-- <img :src="ho.picture" class="rounded-circle border" alt=""> -->
+          <!-- <img src="https://i.postimg.cc/rsjBygKM/20231009-140315-00.jpg" class="rounded-circle border" alt="Profile Picture"> -->
+          <div class="container">
+            <div class="glitch" id="maintext" data-text="DARREN VILJOEN">DARREN VILJOE</div>
+            <div class="glow" id="maintext"></div>
+            <p class="subtitle" id="subtext">{{ ho.intro }}</p>
+          </div>
+          <br><br><br><br><br><br><br><br><br><br><br>
+          <!-- Display name and introduction -->
+          <!-- <h1 class="ani-home fw-bold">Hi, I'm {{ ho.name }}</h1> -->
+          <!-- <h2 class="ani-home fw-bold">{{ ho.intro }}</h2> -->
+          <!-- Display Social Media Links -->
+          <!-- <div class="ani-home">
+            <a href="https://github.com/DarrenViljoen32" class="bi bi-github"></a> | 
+            <a href="https://linkedin.com/in/darren-viljoen-450804208" class="bi bi-linkedin"></a> | 
+            <a href="https://app.netlify.com/teams/darrenviljoen32/overview" class="bi bi-globe"></a> | 
+            <a href="https://wa.me/0748671764" class="bi bi-whatsapp"></a>
+          </div> -->
+        </div>
       </div>
-    </div>
-    <!-- Display a loading spinner when jsonData is not available -->
-    <div v-else>
-      <Spinner />
-    </div>
-    
+      <!-- Display a loading spinner when jsonData is not available -->
+      <div v-else>
+        <Spinner />
+      </div>
+      
   </div>
+<div class="scanlines"></div>
+<Footer/>
 </template>
 
 <script>
@@ -47,11 +55,15 @@
 
 // Import Spinner component
 import Spinner from '@/components/Spinner.vue'
+import Footer from "@/components/Footer.vue";
+
+import '../styles/main.scss'
 
 export default {
   name: 'HomeView',
   // Register the Spinner component
   components: {
+    Footer,
     Spinner
   },
   // Computed property to retrieve jsonData from the Vuex store
@@ -69,6 +81,11 @@ export default {
 </script>
 
 <style scoped>
+.home{
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 img{
   margin-top: 10%;
   height: 250px;
@@ -101,19 +118,62 @@ h1{
     }
 }
 .home {  
-  padding-bottom: 10%;
+  padding-bottom: 30%;
 }
 
-@media screen and (max-width:360px){
+ @media screen and (max-width: 1440px){
+  .home {  
+  padding-bottom: 25%;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .home {  
+  padding-bottom: 25%;
+  }
+}
+@media screen and (max-width: 1080px){
+  .home {  
+    padding-bottom: 25%;
+  }
+}
+@media screen and (min-width: 1080px){
+  .home {  
+    padding-bottom: 25%;
+  }
+}
+@media screen and (min-width: 768px){
+  .home{
+    padding-bottom: 0%;
+  }
+}
+@media screen and (min-width: 720px){
+  .home {  
+    padding-bottom: 0%;
+  }
+}
+@media screen and (min-width: 360px){
+  .home {  
+    padding-bottom: 0%;
+  }
   a{
     font-size: large;
   }
+  img{
+    margin-top: 35%;
+  }
 }
-@media screen and (max-width:300px){
+@media screen and (min-width:300px){
   img{
     margin-top: 30%;
   }
+  .home{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 25%;
+  }
 }
+
 
 
 /* Background Animation */

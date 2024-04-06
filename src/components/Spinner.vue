@@ -9,7 +9,7 @@
 export default {
 }
 </script>
-<style>
+<style scoped>
     .spinner-border{ 
         height: 150px;
         width: 150px;
