@@ -344,6 +344,8 @@
       }
       .card{
         height: 24rem;
+        margin-left: 16px;
+        margin-right: 16px;
       }
     }
     @media screen and (max-width: 1080px){
