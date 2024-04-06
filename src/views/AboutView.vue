@@ -518,8 +518,8 @@ a{
 
 @media only screen and (min-width: 1081px){
   .card{
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
     width: 18rem;
     height: 400px;
   }
