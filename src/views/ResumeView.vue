@@ -123,6 +123,7 @@
                   <h6 class="card-subtitle mb-2">{{ exp.position }}</h6>
                   <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{ exp.year }}</h6>
                   <p class="card-text">{{ exp.description }}</p>
+                  <p class="card-text">{{ exp.leave }}</p>
                 </div>
               </div>
             </div>

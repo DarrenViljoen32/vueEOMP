@@ -41,19 +41,22 @@
             "title":"Life Choices Studio",
             "position":"Intern",
             "year":"March 2024 - Present",
-            "description":"A 6 Month Internship where I'm getting the opportunity to upskill myself in hard and soft skills, starting with Software Engineering."
+            "description":"A 6 Month Internship where I'm getting the opportunity to upskill myself in hard and soft skills, starting with Software Engineering.",
+            "leave": "Currently Employed"
         },
         {
             "title":"Tira Telcoms",
             "position":"Learner",
             "year":"December 2021 - March 2022",
-            "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship."
+            "description":"A 3 Month Learnership where I learned Workforce Management, Marketing (Customers and Prospects), as well as Entrepreneurship.",
+            "leave": "Reason for Leaving: End of Contract"
         },
         {
             "title":"Kukhula Global Projects",
             "position":"Learner",
             "year":"January 2020 - December 2020",
-            "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills."
+            "description":"A Twelve Month Learnership where I learned Business Management, Workplace Etiquette and Code of Conduct as well as Leadership skills.",
+            "leave": "Reason for Leaving: End of Contract"
         }
     ],
     "skills":[
