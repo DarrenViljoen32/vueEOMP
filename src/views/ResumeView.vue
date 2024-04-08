@@ -29,6 +29,7 @@
 
                     <div class="card-body">
                       <h5 class="card-title">{{ edu.title }}</h5>
+                      <h6 class="card-title">{{ edu.course }}</h6>
                       <h6 class="card-subtitle mb-2 text-muted bi bi-calendar">{{edu.year}}</h6>
                       <p class="card-text">{{ edu.description }}</p>
                    
