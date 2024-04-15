@@ -355,7 +355,7 @@
         padding-left: 5px;
       }
     }
-    @media only screen and (max-width:420px){
+    @media only screen and (max-width:430px){
         .row{
           margin-left: 0%;
           margin-right: 0%;

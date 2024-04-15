@@ -572,7 +572,7 @@ a{
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 430px){
   .card{
     margin-left: 50px;
     margin-right: 0px;

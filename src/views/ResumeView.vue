@@ -543,7 +543,7 @@ export default {
   }
   .eduCard{
     width: 13rem;
-    height: 420px;
+    height: 430px;
   }
   .card-whole{
     margin-left: 0px;
@@ -628,7 +628,7 @@ export default {
           padding: 0px;
         }
     } */
-@media only screen and (max-width:420px){
+@media only screen and (max-width:430px){
   h1, h2{
     white-space: nowrap;
   }

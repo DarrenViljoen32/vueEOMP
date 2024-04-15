@@ -132,7 +132,7 @@ h1{
   padding-bottom: 25%;
   }
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 430px){
   .home {  
     padding-bottom: 140%;
   }
