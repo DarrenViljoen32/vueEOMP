@@ -29,7 +29,7 @@
           <br><br><br>
 
           <div class="buttons pads">
-            <a href="https://drive.google.com/file/d/14bE_axtIsva5qrVX_ZLyH6rlbBVucVH_/view?usp=drive_link" target="_blank" class="btn">
+            <a href="https://drive.google.com/file/d/1GNKQJHO64nzXMQVaE6cULQ1tg5Xq9FED/view?usp=drive_link" target="_blank" class="btn">
               <button>View My CV</button>
             </a>
           </div>
@@ -279,6 +279,7 @@ button{
   color: floralwhite;
   height: 55px;
   border-radius: 10px;
+  font-size: large;
 }
 button:hover{
   transform: scale(1.05);
