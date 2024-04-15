@@ -14,6 +14,11 @@
                   <h4 id="headings" title="Location">Location</h4>
                     <p>Riverton, Cape Town, Western Cape, South Africa</p>
                 </li>
+                <li>
+                  <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=22%20Astra%20Avenue%20Riverton%20Cape%20Town%20South%20Africa+(My%20Location)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    <!-- <a href="https://www.gps.ie/">gps vehicle tracker</a> -->
+                  </iframe>
+                </li>
             </ul>
         </div>
 
@@ -226,6 +231,18 @@ export default {
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+    }
+    iframe{
+      width: 100%;
+      height: 400px; 
+      border: 0; 
+      overflow: hidden;
+      margin: 0;
+    }
+    iframe:hover{
+      box-shadow: inset 0 -3em 3em floralwhite,
+      0 0 0 3px rgb(8, 174, 174),
+      0em 0em 3em cyan;
     }
     .bi{
       font-size: xx-large;
