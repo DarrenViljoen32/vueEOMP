@@ -71,9 +71,12 @@ export default {
  .navbar-nav a:hover {
     color: black;
   }
-  /* nav a.router-link-exact-active {
-    color: red;
-  } */
+  nav a.router-link-exact-active {
+    color: black;
+    text-decoration:underline;
+    font-weight: bolder;
+    text-shadow: 0em 0em 5px rgb(8, 174, 174);
+  }
   .navbar-nav{
     padding-left: 0%;
     padding-right: 0%;
