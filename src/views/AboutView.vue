@@ -9,11 +9,9 @@
     <!-- Display content if jsonData is available, otherwise show a loading spinner -->
     <div v-if="jsonData">
 
-      <div class="row">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
 
-        <div class="col-1"></div>
-
-        <div class="col-6">
+        <div class="col">
           <div class="info">
             <!-- Display paragraphs from the 'about' array -->
             <p>{{ jsonData.about[0] }}</p>
@@ -36,16 +34,12 @@
 
         </div>
 
-        <div class="col-1"></div>
-
       </div>
 
       <br><br><br><br><hr><br><br><br><br>
 
       <h2 class="fw-bold" id="aboutTitle" title="">Additional Information</h2>
-      <div class="row">
-
-        <div class="col-2"></div>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
               
         <div class="col">
           <div class="personal-info pads">
@@ -70,14 +64,12 @@
             </div>
           </div>
         </div>
-
-        <div class="col-2"></div>
                
       </div>
 
-      <div class="row">
+      <br>
 
-        <div class="col-2"></div>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
               
         <div class="col">
           <div class="personal-info pads">
@@ -102,8 +94,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-2"></div>
                
       </div>
   
@@ -582,12 +572,12 @@ a{
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 420px){
   .card{
-    margin-left: 25px;
+    margin-left: 50px;
     margin-right: 0px;
-    width: 18rem;
-    height: 360px;
+    width: 20rem;
+    height: 400px;
   }
   .card-title{
     font-size: 24px;
@@ -596,7 +586,36 @@ a{
     font-size: 15px;
   }
   .card-whole{
-    margin-left: 0px;
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-left: 0px; 
+    padding-bottom: 0px;
+  }
+  .card-whole .card-inner{
+    width: 340px;
+    height: 280px;
+  } 
+  .card-whole .card-inner .card-img img{
+    height: 270px;
+    margin-right: 0%;
+    padding-right: 0%;
+  }
+}
+@media only screen and (max-width: 360px){
+  .card{
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 20rem;
+    height: 400px;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+  .card-whole{
+    margin-left: 10px;
     margin-right: 0px;
     padding-left: 0px; 
     padding-bottom: 0px;

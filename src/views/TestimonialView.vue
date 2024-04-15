@@ -337,7 +337,7 @@
 }
 
 
-    @media screen and (min-width: 1081px){
+    @media only screen and (min-width: 1081px){
       .row{
         margin-left: 0px;
         padding-left: 5px;
@@ -348,31 +348,55 @@
         margin-right: 20px;
       }
     }
-    @media screen and (max-width: 1080px){
+    @media only screen and (max-width: 1080px){
       .row{
         margin-left: 0px;
         padding-left: 5px;
       }
     }
-    @media screen and (max-width:360px){
+    @media only screen and (max-width:420px){
         .row{
-          margin-left: 5%;
-          padding-left: 10%;
+          margin-left: 0%;
+          margin-right: 0%;
+          padding-left: 0%;
+        }
+        .card{
+          width: 22rem;
+        }
+        .card-body{
+          margin-left: 0%;
+          padding-left: 0%;
+          margin-right: 0%;
+          padding-right: 0%;
+        }
+        .card-text{
+          font-size: 12px;
+          padding: 0%;
+          margin: 0%;
+        }
+    }
+     @media only screen and (max-width:360px){
+        .row{
+          margin-left: 0%;
+          padding-left: 0%;
         }
         .card{
           width: 18rem;
         }
-    }
-    /* @media screen and (max-width:300px){
-        .row{
-          margin-left: 1%;
-          padding-left: 2%;
+        .card-body{
+          margin-left: 0%;
+          padding-left: 0%;
+          margin-right: 0%;
+          padding-right: 0%;
         }
-        .card{
-          width: 15rem;
+        .card-text{
+          font-size: 10px;
+          padding: 0%;
+          margin: 0%;
         }
     }
-    @media screen and (min-width: 300px){
+
+    /*@media screen and (min-width: 300px){
         .card{
           width: 15rem;
           margin-left: 0px;

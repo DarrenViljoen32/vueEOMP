@@ -44,8 +44,8 @@
 
       <br><br><br>
 
-      <div class="row row-cols-2 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
-        <div class="col-4">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+        <div class="col">
 
           <h3 class="fw-bold"  id="contactTitle" title="">Social Media Links</h3>
           <br><br>

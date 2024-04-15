@@ -628,7 +628,7 @@ export default {
           padding: 0px;
         }
     } */
-@media only screen and (max-width:360px){
+@media only screen and (max-width:420px){
   h1, h2{
     white-space: nowrap;
   }
@@ -638,14 +638,14 @@ export default {
   .card{
     margin-left: 25px;
     margin-right: 0px;
-    width: 18rem;
+    width: 20rem;
     height: 360px;
   }
   .card-title{
     font-size: 24px;
   }
   .card-text{
-    font-size: 15px;
+    font-size: 18px;
   }
   .card-whole{
     margin-left: 0px;
@@ -662,9 +662,10 @@ export default {
     margin-right: 0%;
     padding-right: 0%;
   }
-        /* .row{
-          margin-left: 1%;
-        }
+  .eduCard{
+    height: 450px;
+  }
+        /*
         .card{
           width: 18rem;
         }
@@ -695,12 +696,12 @@ export default {
           font-size: 9px;
         } */
     }
-    @media only screen and (max-width:300px){
-      /* .card{
-          width: 15rem;
-          margin-left: 0px;
-          height: 265px;
+    @media only screen and (max-width:360px){
+       .card{
+          width: 20rem;
+          margin-left: 2%;
         }
+       /* 
         #education, #skills{
           padding-left: 0px;
           padding-right: 0px;
