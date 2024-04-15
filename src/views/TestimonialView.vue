@@ -214,6 +214,7 @@
     } */
     .card-link{
       font-size: 13px;
+      /* white-space: nowrap; */
     }
     a{
       text-decoration: none;

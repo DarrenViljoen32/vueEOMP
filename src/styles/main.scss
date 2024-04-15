@@ -134,54 +134,16 @@
     }
   }
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (min-width: 1081px) {
     .container{
-      top: 0%;
-      bottom: 0%;
-      left: 7%;
-      padding-left: 75%;
-      padding-top: 0%;
-      margin-top: 0%;
-      padding-bottom: 0%;
-      margin-bottom: 0%;
-    }
-    .glitch{
-      font-size: 64px;
-      right: 60%;
-      padding-top: 0%;
-      margin-top: 0%;
-      padding-bottom: 0%;
-      margin-bottom: 0%;
+      padding-right: 0px;
+      padding-bottom: 20%;
+      top: 75%;
     }
     .subtitle{
-      font-size: xx-small;
-      padding-left: 35%;
-      width: 100%;
-    }
-  }
-  @media only screen and (max-width: 420px) {
-    .container{
-      top: 0%;
-      bottom: 0%;
-      left: 7%;
-      padding-left: 75%;
-      padding-top: 0%;
-      margin-top: 0%;
-      padding-bottom: 0%;
-      margin-bottom: 0%;
-    }
-    .glitch{
-      font-size: 64px;
-      right: 60%;
-      padding-top: 0%;
-      margin-top: 0%;
-      padding-bottom: 0%;
-      margin-bottom: 0%;
-    }
-    .subtitle{
-      font-size: xx-small;
-      padding-left: 35%;
-      width: 100%;
+      font-size: small;
+      padding-right: 0px;
+      left: 25%;
     }
   }
   @media only screen and (max-width: 1080px) {
@@ -196,16 +158,60 @@
       left: 25%;
     }
   }
-  @media only screen and (min-width: 1081px) {
+  @media only screen and (max-width: 420px) {
     .container{
-      padding-right: 0px;
-      padding-bottom: 20%;
-      top: 75%;
+      top: 60%;
+      bottom: 0%;
+      left: 7%;
+      padding-left: 75%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
+    }
+    .glitch{
+      font-size: 64px;
+      right: 60%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
     }
     .subtitle{
-      font-size: small;
-      padding-right: 0px;
-      left: 25%;
+      font-size: xx-small;
+      padding-left: 35%;
+      width: 100%;
+    }
+    .scanlines{
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+      margin-top: 0%;
+      padding-top: 0%;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .container{
+      top: 60%;
+      bottom: 0%;
+      left: 4%;
+      padding-left: 75%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
+    }
+    .glitch{
+      font-size: 64px;
+      right: 60%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
+    }
+    .subtitle{
+      font-size: xx-small;
+      padding-left: 45%;
+      width: 100%;
     }
   }
   
