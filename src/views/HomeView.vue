@@ -121,40 +121,20 @@ h1{
   padding-bottom: 30%;
 }
 
- @media screen and (max-width: 1440px){
+ @media screen and (min-width: 1081px){
   .home {  
   padding-bottom: 25%;
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (max-width: 1080px){
   .home {  
   padding-bottom: 25%;
   }
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 420px){
   .home {  
-    padding-bottom: 25%;
-  }
-}
-@media screen and (min-width: 1080px){
-  .home {  
-    padding-bottom: 25%;
-  }
-}
-@media screen and (min-width: 768px){
-  .home{
-    padding-bottom: 0%;
-  }
-}
-@media screen and (min-width: 720px){
-  .home {  
-    padding-bottom: 0%;
-  }
-}
-@media screen and (min-width: 360px){
-  .home {  
-    padding-bottom: 0%;
+    padding-bottom: 140%;
   }
   a{
     font-size: large;
@@ -163,14 +143,14 @@ h1{
     margin-top: 35%;
   }
 }
-@media screen and (min-width:300px){
+@media screen and (max-width:360px){
   img{
     margin-top: 30%;
   }
   .home{
     overflow-x: hidden;
     overflow-y: hidden;
-    padding-bottom: 25%;
+    padding-bottom: 140%;
   }
 }
 

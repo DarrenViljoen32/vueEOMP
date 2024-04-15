@@ -133,48 +133,70 @@
       transform: rotateX(0deg) skewX(0deg);
     }
   }
-  // @media only screen and (max-width: 300px) {
-  //   .container{
-  //     top: 40%;
-  //     left: 4%;
-  //     padding-left: 75%;
-  //   }
-  //   .glitch{
-  //     font-size: xx-large;
-  //   }
-  //   .subtitle{
-  //     font-size: xx-small;
-  //     left: 0%;
-  //     padding-left: 75%;
-  //   }
-  // }
+
   @media only screen and (max-width: 360px) {
     .container{
-      top: 35%;
+      top: 0%;
+      bottom: 0%;
       left: 7%;
       padding-left: 75%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
     }
     .glitch{
-      font-size: xx-large;
+      font-size: 64px;
+      right: 60%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
     }
     .subtitle{
       font-size: xx-small;
-      padding-left: 50%;
+      padding-left: 35%;
       width: 100%;
     }
   }
-  // @media only screen and (max-width: 720px) {
-  //   .container{
-  //     text-align: center;
-  //     margin-left: 100px;
-  //     padding-right: 220px;
-  //   }
-  //   .subtitle{
-  //     font-size: x-small;
-  //     left: 0%;
-  //   }
-  // }
-  @media only screen and (min-width: 1080px) {
+  @media only screen and (max-width: 420px) {
+    .container{
+      top: 0%;
+      bottom: 0%;
+      left: 7%;
+      padding-left: 75%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
+    }
+    .glitch{
+      font-size: 64px;
+      right: 60%;
+      padding-top: 0%;
+      margin-top: 0%;
+      padding-bottom: 0%;
+      margin-bottom: 0%;
+    }
+    .subtitle{
+      font-size: xx-small;
+      padding-left: 35%;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1080px) {
+    .container{
+      padding-right: 0px;
+      padding-bottom: 20%;
+      top: 75%;
+    }
+    .subtitle{
+      font-size: small;
+      padding-right: 0px;
+      left: 25%;
+    }
+  }
+  @media only screen and (min-width: 1081px) {
     .container{
       padding-right: 0px;
       padding-bottom: 20%;
@@ -187,17 +209,3 @@
     }
   }
   
-  // @media only screen and (max-width: 1440px) {
-  //   .container{
-  //     text-align: center;
-  //     margin-left:60px;
-  //     padding-right: 90px;
-  //     top: 55%;
-  //     left: 51%;
-  //   }
-  //   .subtitle{
-  //     font-size: large;
-  //     padding-bottom: 10%;
-  //     left: 17%;
-  //   }
-  // }
