@@ -27,7 +27,7 @@
           <br><br><br>
 
           <div class="buttons pads">
-            <a href="https://drive.google.com/file/d/1GNKQJHO64nzXMQVaE6cULQ1tg5Xq9FED/view?usp=drive_link" target="_blank" class="btn">
+            <a href="https://drive.google.com/file/d/1tiGJxlENfHdVlfSRmlOOs81628Pae2wP/view?usp=drive_link" target="_blank" class="btn">
               <button>View My CV</button>
             </a>
           </div>
@@ -39,6 +39,7 @@
       <br><br><br><br><hr><br><br><br><br>
 
       <h2 class="fw-bold" id="aboutTitle" title="">Additional Information</h2>
+      <br><br><br><br>
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
               
         <div class="col">
@@ -52,7 +53,7 @@
         <div class="col">
           <div class="personal-info pads">
             <div class="info-item pads">
-              <p><span id="aboutLabel">Age</span>:<br>26</p>
+              <p><span id="aboutLabel">Date of Birth</span>:<br>12 March 1998</p>
             </div>
           </div>
         </div>
@@ -60,7 +61,7 @@
         <div class="col">
           <div class="personal-info pads">
             <div class="info-item pads">
-              <p><span id="aboutLabel">Email</span>:<br>darrenviljoen32@gmail.com</p>
+              <p><span id="aboutLabel">Age</span>:<br>26</p>
             </div>
           </div>
         </div>
@@ -74,7 +75,7 @@
         <div class="col">
           <div class="personal-info pads">
             <div class="info-item pads">
-              <p><span id="aboutLabel">Date of Birth</span>:<br>12 March 1998</p>
+              <p><span id="aboutLabel">Email</span>:<br>darrenviljoen32@gmail.com</p>
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@
     <br><br><br><br><hr><br><br><br><br>
 
     <h2 id="aboutTitle" title="">Accolades & Achievments</h2>
-      <br>
+    <br><br><br><br>
 
       <div v-if="jsonData">
       
@@ -123,6 +124,12 @@
                   <h5 class="card-title">{{ jsonData.accolades[0].title }}</h5>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[0].subtitle }}</p>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[0].experience }}</p>
+
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1VTs__H3lhN7mOIRUr-G9FIT9nijGteSz/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
                 </div>
               </div>              
             </div>
@@ -138,6 +145,12 @@
                   <h5 class="card-title">{{ jsonData.accolades[1].title }}</h5>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[1].subtitle }}</p>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[1].experience }}</p>
+
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1VL7Anw1RmxSaHSZFLcRpK5wGb7FT5Sqt/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
                 </div>
               </div>              
             </div>
@@ -153,6 +166,12 @@
                   <h5 class="card-title">{{ jsonData.accolades[2].title }}</h5>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[2].subtitle }}</p>
                   <p class="card-text" id="card-text">{{ jsonData.accolades[2].experience }}</p>
+
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1vcVhpT07LsvQtUTFgdILE680AjB47n9n/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
                 </div>
               </div>              
             </div>

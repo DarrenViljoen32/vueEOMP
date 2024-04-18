@@ -7,8 +7,8 @@
         }
     ],
     "about":[
-        "Current Full Stack Developer student passionate about data managing, programming and machine learning. I have gained many skills through numerous initiatives to make my assigned projects a success and is always willing to go the extra mile. I am proficient in a range of modern technologies such as JavaScript, VueJS, NodeJS and Bootstrap5.",
-        " As for my hobbies, I enjoy learning new Programming languages, playing video games, learning Geography, working out, and spending time with friends and family. I also have a more creative side, as I enjoy designing, drawing, and painting."
+        "Current Softare Engineering intern who is passionate about programming, data managing and the exploration of new technologies. I have gained many skills through numerous initiatives to make my assigned projects a success and are always willing to go the extra mile to make them stand out. I am proficient in a range of modern technologies such as JavaScript, VueJS, NodeJS and MySQL.",
+        " As for my hobbies, I enjoy learning new Programming Languages, playing Video Games, learning Geography, Working out, and spending time with Friends and Family. I also have a more creative side, as I enjoy Drawing, and Painting."
     ],
     "education":[
         {
@@ -110,13 +110,13 @@
         {
             "title":"Microsoft Technology Associate",
             "subtitle": "Introduction to Programming using JavaScript",
-            "experience":"I have successfully completed the requirements to be recognized as a Microsoft Technology Associate for Introduction to Programming using JavaScript.",
+            "experience":"I have successfully completed the requirements to be recognized as a MTA for Introduction to Programming using JavaScript.",
             "image":"https://i.ibb.co/60TTnx3/Intro-To-Java-Script.png"
         },
         {
             "title":"Microsoft Technology Associate",
             "subtitle": "HTML5 Application Development Fundamentals",
-            "experience":"I have successfully completed the requirements to be recognized as a Microsoft Technology Associate for HTML5 Application Development Fundamentals.",
+            "experience":"I have successfully completed the requirements to be recognized as a MTA for HTML5 Application Development Fundamentals.",
             "image":"https://i.ibb.co/163HvXM/Intro-To-HTML5.png"
         },
         {
