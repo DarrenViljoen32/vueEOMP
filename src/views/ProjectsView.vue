@@ -41,18 +41,18 @@
                 <div class="card-img">
                   <!-- Display project image from the data -->
                   <!-- <img :src="jsonData.projects[5].image" class="card-img-top" alt="Image Loading..."> -->
-                  <img src="https://i.postimg.cc/9Q4xW4zV/portfolio.png" class="card-img-top" alt="Image Loading...">
+                  <img src="https://i.postimg.cc/1tKBWw70/virtual-Calculator.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
-                  <h5 class="card-title">{{ jsonData.projects[5].name }}</h5>
-                  <p class="card-text">{{ jsonData.projects[5].description }}</p>
+                  <h5 class="card-title">{{ jsonData.projects[1].name }}</h5>
+                  <p class="card-text">{{ jsonData.projects[1].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[5].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[5].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[1].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[1].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Bootstrap5 Portfolio</label>
+              <label for=".card-whole">Virtual Calculator</label>
               
             </div>
           </div>
@@ -87,18 +87,18 @@
                 <div class="card-img">
                   <!-- Display project image from the data -->
                   <!-- <img :src="jsonData.projects[2].image" class="card-img-top" alt="Image Loading..."> -->
-                  <img src="https://i.postimg.cc/4dGwbBPN/ecommerce.png" class="card-img-top" alt="Image Loading...">
+                  <img src="https://i.ibb.co/Bc2JHHF/capstone-Project-Image.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
-                  <h5 class="card-title">{{ jsonData.projects[2].name }}</h5>
-                  <p class="card-text">{{ jsonData.projects[2].description }}</p>
+                  <h5 class="card-title">{{ jsonData.projects[6].name }}</h5>
+                  <p class="card-text">{{ jsonData.projects[6].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[2].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[2].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[6].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[6].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">HTML5 & CSS Ecommerce Website</label>
+              <label for=".card-whole">Sign In / Log In System</label>
               
             </div>
 
@@ -115,18 +115,18 @@
                 <div class="card-img">
                   <!-- Display project image from the data -->
                   <!-- <img :src="jsonData.projects[1].image" class="card-img-top" alt="Image Loading..."> -->
-                  <img src="https://i.postimg.cc/1tKBWw70/virtual-Calculator.png" class="card-img-top" alt="Image Loading...">
+                  <img src="https://i.postimg.cc/9Q4xW4zV/portfolio.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
                   <!-- Display project name and description from the data -->
-                  <h5 class="card-title">{{ jsonData.projects[1].name }}</h5>
-                  <p class="card-text">{{ jsonData.projects[1].description }}</p>
+                  <h5 class="card-title">{{ jsonData.projects[5].name }}</h5>
+                  <p class="card-text">{{ jsonData.projects[5].description }}</p>
                   <!-- Display GitHub and Netlify buttons with links from the data -->
-                  <a :href="jsonData.projects[1].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[1].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                  <a :href="jsonData.projects[5].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[5].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Virtual Calculator</label>
+              <label for=".card-whole">Bootstrap5 Portfolio</label>
               
             </div>
           </div>
@@ -190,16 +190,16 @@
   
               <div class="card-inner">
                 <div class="card-img">
-                  <img src="https://i.ibb.co/Bc2JHHF/capstone-Project-Image.png" class="card-img-top" alt="Image Loading...">
+                  <img src="https://i.postimg.cc/4dGwbBPN/ecommerce.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.projects[6].name }}</h5>
-                  <p class="card-text">{{ jsonData.projects[6].description }}</p>
-                  <a :href="jsonData.projects[6].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
-                  <a :href="jsonData.projects[6].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Firebase"></button></a>
+                  <h5 class="card-title">{{ jsonData.projects[2].name }}</h5>
+                  <p class="card-text">{{ jsonData.projects[2].description }}</p>
+                  <a :href="jsonData.projects[2].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[2].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Firebase"></button></a>
                 </div>
               </div>
-              <label for=".card-whole">Sign In / Log In System</label>
+              <label for=".card-whole">HTML5 & CSS Ecommerce Website</label>
               
             </div>
           </div>
