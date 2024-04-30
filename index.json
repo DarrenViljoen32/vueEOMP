@@ -124,6 +124,18 @@
             "subtitle": "Digital Literacy Certificate",
             "experience":"I have successfully met all IC3 Spark requirements for a Digital Literacy Certificate.",
             "image":"https://i.ibb.co/1JJbN2Z/IC3-Spark.png"
+        },
+        {
+            "title":"Cisco Networking Academy",
+            "subtitle": "Entrepreneurship Certificate of Course Completion",
+            "experience":"I have successfully met all Cisco Networking Academy requirements for a Entrepreneurship Certificate.",
+            "image":"https://i.ibb.co/N1HTVKM/Cisco-Entrepreneurship-Certificate.png"
+        },
+        {
+            "title":"Life Choices Studio",
+            "subtitle": "SCRUM Achievement",
+            "experience":"I have successfully presented a 'Go to Market' strategy for a digital product, successfully displaying an understaning of SCRUM principles.",
+            "image":"https://i.ibb.co/kxx0xBp/LCStudio-SCRUM-Badge.png"
         }
     ],
     "projects":[
