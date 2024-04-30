@@ -184,9 +184,9 @@
                   <img src="https://i.ibb.co/N1HTVKM/Cisco-Entrepreneurship-Certificate.png" class="card-img-top img-fluid" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[2].title }}</h5>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[2].subtitle }}</p>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[2].experience }}</p>
+                  <h5 class="card-title">{{ jsonData.accolades[3].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[3].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[3].experience }}</p>
 
                   <div class="buttons pads">
                     <a href="https://drive.google.com/file/d/1IQOJ4xumNcybOunSDjhpDBj9kwumIFLA/view?usp=drive_link" target="_blank" class="btn">
@@ -205,9 +205,9 @@
                   <img src="https://i.ibb.co/kxx0xBp/LCStudio-SCRUM-Badge.png" class="card-img-top img-fluid" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[2].title }}</h5>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[2].subtitle }}</p>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[2].experience }}</p>
+                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
 
                   <div class="buttons pads">
                     <a href="https://drive.google.com/file/d/1FzyNp91bGLK461x2YYT4ByiVVP4puiJE/view?usp=drive_link" target="_blank" class="btn">
