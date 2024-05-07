@@ -27,7 +27,7 @@
           <br><br><br>
 
           <div class="buttons pads">
-            <a href="https://drive.google.com/file/d/1tiGJxlENfHdVlfSRmlOOs81628Pae2wP/view?usp=drive_link" target="_blank" class="btn">
+            <a href="https://drive.google.com/file/d/1QZMJeWSs8j4qG27eKozBFxin3jGMCr7P/view?usp=drive_link" target="_blank" class="btn">
               <button>View My CV</button>
             </a>
           </div>
