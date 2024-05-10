@@ -496,7 +496,7 @@ export default {
     margin-left: 100px;
     margin-right: 50px;
     width: 18rem;
-    height: 350px;
+    height: 360px;
   }
   .eduCard{
     width: 16rem;
