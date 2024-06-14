@@ -27,7 +27,7 @@
           <br><br><br>
 
           <div class="buttons pads">
-            <a href="https://drive.google.com/file/d/1QZMJeWSs8j4qG27eKozBFxin3jGMCr7P/view?usp=drive_link" target="_blank" class="btn">
+            <a href="https://drive.google.com/file/d/1bRZBXY0asNrok-lVSr3BC3Y4SaJb27b6/view?usp=drive_link" target="_blank" class="btn">
               <button>View My CV</button>
             </a>
           </div>
@@ -197,7 +197,70 @@
               </div>              
             </div>
           </div>
+              
+          <div class="col-12 col-lg">
+            <div class="card-whole info" id="middle">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/Qp0L1QF/python-essentials-1-1.png" class="card-img-top img-fluid" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+    
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1R0Mv_DKja3KxPu303Vq9PK4lEdQqbN1D/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+    
+          <div class="col-12 col-lg">
+            <div class="card-whole info" id="middle">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/kQR3QR4/Darren-Viljoen-Programming-Esse-certificate.png" class="card-img-top img-fluid" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+    
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1ockhxAVfl9a-jnmhg4j7PHKEh128zkEC/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
 
+          <div class="col-12 col-lg">
+            <div class="card-whole info" id="middle">
+              <div class="card-inner">
+                <div class="card-img">
+                  <img src="https://i.ibb.co/B3MzqD6/Darren-Viljoen-NDG-Linux-Unhatc-certificate.png" class="card-img-top img-fluid" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+
+                  <div class="buttons pads">
+                    <a href="https://drive.google.com/file/d/1Pjkgqf2N3dKen4lhLn7V_CoQcYy5Ac4q/view?usp=drive_link" target="_blank" class="btn">
+                      <button style="font-size: medium; height: 30px;">View Certificate</button>
+                    </a>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+          
           <div class="col-12 col-lg">
             <div class="card-whole info" id="middle">
               <div class="card-inner">
@@ -218,6 +281,8 @@
               </div>              
             </div>
           </div>
+          
+
         
         </div>
       
