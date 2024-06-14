@@ -63,7 +63,7 @@
         {
             "title": "JavaScript",
             "level": "Intermediate",
-            "experience":"I am proficient at working with JavaScript but know I still have much to learn. However, even as a novice, I'm able to use JavaScript to my advantage. By using its Powerful frameworks, Ease of use and Versitility I'm able to make my projects more interactive than ever before."
+            "experience":"I am proficient at working with JavaScript but know I still have much to learn. However, even as a novice, I'm able to use JavaScript to my advantage. By using its Powerful frameworks, Ease of use and Versatility I'm able to make my projects more interactive than ever before."
         },
         {
             "title":"Bootstrap & CSS",
@@ -74,6 +74,21 @@
             "title":"HTML5",
             "level": "Intermediate",
             "experience":"Being proficient in HTML5 means that I'm able to create websites that are dynamic and responsive. By making use of Semantic Elements, Responsive Media Queries, and Keyframe Animations, making refined yet stylish websites becomes a breeze."
+        },
+        {
+            "title":"Python",
+            "level": "Beginner",
+            "experience":"I am just starting to learn Python programming and recognize there's a lot more to master. Still, even at this early stage, I can leverage Python effectively. Its Readability, Extensive Libraries, and Versatility enable me to create more efficient projects than ever before."
+        },
+        {
+            "title":"C++",
+            "level": "Beginner",
+            "experience":"I am beginning to learn C++ programming and understand there's still much to grasp. However, even as a beginner, I can use C++ effectively. Its Performance, Flexibility, and Powerful Features allow me to develop more efficient projects than before."
+        },
+        {
+            "title":"Linux OS",
+            "level": "Beginner",
+            "experience":"I am learning the Linux OS and realize there's much more to master. Nonetheless, even at this early stage, I can effectively use Linux. Its Stability, Security, and Flexibility allow me to handle systems and projects more efficiently than before."
         },
         {
             "title":"Web Design",
