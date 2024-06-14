@@ -41,6 +41,29 @@
                 <div class="card-img">
                   <!-- Display project image from the data -->
                   <!-- <img :src="jsonData.projects[5].image" class="card-img-top" alt="Image Loading..."> -->
+                  <img src="https://i.ibb.co/jy5ts3f/weather-App-screenshot.png" class="card-img-top" alt="Image Loading...">
+                </div>
+                <div class="card-info">
+                  <!-- Display project name and description from the data -->
+                  <h5 class="card-title">{{ jsonData.projects[7].name }}</h5>
+                  <p class="card-text">{{ jsonData.projects[7].description }}</p>
+                  <!-- Display GitHub and Netlify buttons with links from the data -->
+                  <a :href="jsonData.projects[7].github" target="_blank"><button type="button" class="card-link bi bi-github btn btn-light" title="GitHub"></button></a>
+                  <a :href="jsonData.projects[7].netlify" target="_blank"><button type="button" class="card-link bi bi-globe btn btn-light" title="Netflify"></button></a>
+                </div>
+              </div>
+              <label for=".card-whole">Cape Town Weather App</label>
+              
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card-whole" id="middle">
+  
+              <div class="card-inner">
+                <div class="card-img">
+                  <!-- Display project image from the data -->
+                  <!-- <img :src="jsonData.projects[5].image" class="card-img-top" alt="Image Loading..."> -->
                   <img src="https://i.postimg.cc/1tKBWw70/virtual-Calculator.png" class="card-img-top" alt="Image Loading...">
                 </div>
                 <div class="card-info">
@@ -58,7 +81,7 @@
           </div>
 
           <div class="col">
-            <div class="card-whole" id="middle">
+            <div class="card-whole" id="right">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -77,11 +100,17 @@
               </div>
               <label for=".card-whole">JavaScript Ecommerce Website</label>
               
+              
             </div>
+
           </div>
 
+        </div>
+
+        <div class="row">
           <div class="col">
-            <div class="card-whole" id="right">
+
+            <div class="card-whole" id="left">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -101,15 +130,11 @@
               <label for=".card-whole">Sign In / Log In System</label>
               
             </div>
-
           </div>
 
-        </div>
-
-        <div class="row">
           <div class="col">
-
-            <div class="card-whole" id="left">
+            
+            <div class="card-whole" id="middle">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -132,8 +157,8 @@
           </div>
 
           <div class="col">
-            
-            <div class="card-whole" id="middle">
+
+            <div class="card-whole" id="right">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -155,9 +180,11 @@
             </div>
           </div>
 
-          <div class="col">
+        </div>
 
-            <div class="card-whole" id="right">
+        <div class="row">
+          <div class="col">
+            <div class="card-whole" id="left">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -175,18 +202,14 @@
                 </div>
               </div>
               <label for=".card-whole">Virtual Keyboard</label>
-              
-            </div>
+  
+              </div>
           </div>
 
-        </div>
-
-        <div class="row">
           <div class="col-4"></div>
-
+          
           <div class="col">
-            
-            <div class="card-whole" id="middle">
+            <div class="card-whole" id="right">
   
               <div class="card-inner">
                 <div class="card-img">
@@ -202,9 +225,8 @@
               <label for=".card-whole">HTML5 & CSS Ecommerce Website</label>
               
             </div>
-          </div>
 
-          <div class="col-4"></div>
+          </div>
         </div>
         
       </div>
