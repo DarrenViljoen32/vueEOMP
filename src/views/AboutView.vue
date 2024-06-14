@@ -205,9 +205,9 @@
                   <img src="https://i.ibb.co/Qp0L1QF/python-essentials-1-1.png" class="card-img-top img-fluid" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+                  <h5 class="card-title">{{ jsonData.accolades[5].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[5].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[5].experience }}</p>
     
                   <div class="buttons pads">
                     <a href="https://drive.google.com/file/d/1R0Mv_DKja3KxPu303Vq9PK4lEdQqbN1D/view?usp=drive_link" target="_blank" class="btn">
@@ -226,9 +226,9 @@
                   <img src="https://i.ibb.co/kQR3QR4/Darren-Viljoen-Programming-Esse-certificate.png" class="card-img-top img-fluid" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+                  <h5 class="card-title">{{ jsonData.accolades[6].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[6].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[6].experience }}</p>
     
                   <div class="buttons pads">
                     <a href="https://drive.google.com/file/d/1ockhxAVfl9a-jnmhg4j7PHKEh128zkEC/view?usp=drive_link" target="_blank" class="btn">
@@ -247,9 +247,9 @@
                   <img src="https://i.ibb.co/B3MzqD6/Darren-Viljoen-NDG-Linux-Unhatc-certificate.png" class="card-img-top img-fluid" alt="Image Loading...">
                 </div>
                 <div class="card-info">
-                  <h5 class="card-title">{{ jsonData.accolades[4].title }}</h5>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].subtitle }}</p>
-                  <p class="card-text" id="card-text">{{ jsonData.accolades[4].experience }}</p>
+                  <h5 class="card-title">{{ jsonData.accolades[7].title }}</h5>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[7].subtitle }}</p>
+                  <p class="card-text" id="card-text">{{ jsonData.accolades[7].experience }}</p>
 
                   <div class="buttons pads">
                     <a href="https://drive.google.com/file/d/1Pjkgqf2N3dKen4lhLn7V_CoQcYy5Ac4q/view?usp=drive_link" target="_blank" class="btn">
@@ -260,7 +260,7 @@
               </div>              
             </div>
           </div>
-          
+
           <div class="col-12 col-lg">
             <div class="card-whole info" id="middle">
               <div class="card-inner">
@@ -434,6 +434,7 @@ a{
     }
     .card-text{
       font-size: 16px;
+      text-align:center;
     }
 .card-whole{
       flex: 0 0 33.33%;
