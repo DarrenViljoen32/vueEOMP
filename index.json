@@ -220,6 +220,13 @@
             "image":"https://i.ibb.co/Bc2JHHF/capstone-Project-Image.png",
             "github":"https://github.com/DarrenViljoen32/backup_CAPSTONE.git",
             "netlify":"https://capstoneproject-fdda5.web.app/"
+        },
+        {
+            "name":"Cape Town Weather App",
+            "description":"Made using Python, HTML5, JavaScript and Bootstrap",
+            "image":"https://i.ibb.co/jy5ts3f/weather-App-screenshot.png",
+            "github":"https://github.com/DarrenViljoen32/weather_App.git",
+            "netlify":"https://weather-app-1-r8v9.onrender.com/"
         }
     ],
     "testimonials":[
